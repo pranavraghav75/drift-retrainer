@@ -6,7 +6,7 @@ import mlflow.xgboost
 import xgboost as xgb
 import os
 
-df = pd.read_csv("data/processed/train.csv")  # assume this has already been cleaned
+df = pd.read_csv("data/processed/train.csv")  # assume this is already clean
 X = df.drop(columns=["target"])
 y = df["target"]
 
@@ -65,10 +65,10 @@ print(classification_report(y_val, val_preds))
 # ======direct testing======
 
 # test_input = pd.DataFrame([{
-#     "age": 40,
-#     "balance": 837.33,
-#     "num_transactions": 3,
-#     "days_active": 334
+#     "age": 47,
+#     "balance": 1125.49,
+#     "num_transactions": 2,
+#     "days_active": 344
 # }])
 # test_prediction = model.predict(test_input)
 # print("Test Input Prediction:", test_prediction[0])

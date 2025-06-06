@@ -1,4 +1,8 @@
 pandas
+xgboost
 scikit-learn
 mlflow
-xgboost
+flask
+evidently
+apache-airflow
+sqlalchemy

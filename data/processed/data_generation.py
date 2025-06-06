@@ -20,8 +20,11 @@ df_large = pd.DataFrame({
     "balance": np.round(np.random.normal(loc=1000, scale=150, size=n_samples), 2),
     "num_transactions": np.random.randint(1, 10, size=n_samples),
     "days_active": np.random.randint(30, 365, size=n_samples),
-    "target": np.random.choice([0, 1], size=n_samples, p=[0.9, 0.1])
 })
+
+df_large["target"] = np.where(
+    (df_large["balance"] > 1000) & (df_large["num_transactions"] < 5), 1, 0
+)
 
 output_path = "data/processed/train.csv"
 if os.path.exists('train.csv'):
