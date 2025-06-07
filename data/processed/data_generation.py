@@ -44,6 +44,10 @@ drift_data = pd.DataFrame({
     "days_active": np.random.randint(30, 365, n_samples)
 })
 
+drift_data["target"] = np.where(
+    (drift_data["balance"] > 2000) & (drift_data["num_transactions"] < 5), 1, 0
+)
+
 output_path = "data/processed/latest_inference.csv"
 if os.path.exists('latest_inference.csv'):
     os.remove('latest_inference.csv')

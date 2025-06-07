@@ -32,7 +32,10 @@ if overall_drift:
 
     with open(FLAG_PATH, "w") as f:
         f.write("1")
-    print(f"Created retrain flag created at '{FLAG_PATH}'.")
+    print(f"Created retrain flag at '{FLAG_PATH}'.")
+
+    # update original dataset with latest inference data
+    curr_df.to_csv("data/processed/train.csv", index=False)
 else:
     print("No significant data drift detected.")
     
