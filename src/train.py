@@ -62,7 +62,7 @@ val_preds = model.predict(X_val)
 print("Validation Classification Report:")
 print(classification_report(y_val, val_preds))
 
-# ======direct testing======
+# ===== direct testing =====
 
 # test_input = pd.DataFrame([{
 #     "age": 47,

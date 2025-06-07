@@ -34,3 +34,18 @@ df_large.to_csv(output_path, index=False)
 
 # print("first 5 rows:")
 # print(df_large.head())
+
+#  ===== data drift generation =====
+n_samples = 100
+drift_data = pd.DataFrame({
+    "age": np.random.randint(20, 70, n_samples),
+    "balance": np.random.uniform(1500, 2500, n_samples),  # shifted higher
+    "num_transactions": np.random.randint(1, 10, n_samples),
+    "days_active": np.random.randint(30, 365, n_samples)
+})
+
+output_path = "data/processed/latest_inference.csv"
+if os.path.exists('latest_inference.csv'):
+    os.remove('latest_inference.csv')
+
+drift_data.to_csv(output_path, index=False)
