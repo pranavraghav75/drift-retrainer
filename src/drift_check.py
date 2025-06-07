@@ -32,11 +32,11 @@ if overall_drift:
 
     with open(FLAG_PATH, "w") as f:
         f.write("1")
-    print(f"Retrain flag created at '{FLAG_PATH}'.")
+    print(f"Created retrain flag created at '{FLAG_PATH}'.")
 else:
     print("No significant data drift detected.")
     
     # remove old flag if it still exists
     if os.path.exists(FLAG_PATH):
         os.remove(FLAG_PATH)
-        print(f"Removed stale drift flag at '{FLAG_PATH}'.")
+        print(f"Removed drift flag at '{FLAG_PATH}'.")
