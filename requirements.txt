@@ -3,6 +3,6 @@ xgboost
 scikit-learn
 mlflow
 flask
-evidently==0.2.2
+evidently==0.3.1
 apache-airflow
 sqlalchemy
