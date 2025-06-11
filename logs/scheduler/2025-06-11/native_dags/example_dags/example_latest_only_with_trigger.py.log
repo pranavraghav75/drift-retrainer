@@ -1,0 +1,15 @@
+[2025-06-10T23:54:23.243-0400] {processor.py:186} INFO - Started process (PID=23669) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-10T23:54:23.245-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-06-10T23:54:23.245-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.245-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-10T23:54:23.248-0400] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-10T23:54:23.348-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.348-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2025-06-10T23:54:23.351-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.351-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2025-06-10T23:54:23.353-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.353-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2025-06-10T23:54:23.355-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.355-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:latest_only_with_trigger
+[2025-06-10T23:54:23.357-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.357-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:latest_only_with_trigger
+[2025-06-10T23:54:23.359-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.359-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:latest_only_with_trigger
+[2025-06-10T23:54:23.361-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.361-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:latest_only_with_trigger
+[2025-06-10T23:54:23.361-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.361-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-10T23:54:23.365-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.365-0400] {dag.py:3262} INFO - Creating ORM DAG for latest_only_with_trigger
+[2025-06-10T23:54:23.368-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:23.368-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-06-10T20:00:00+00:00, run_after=2025-06-11T00:00:00+00:00
+[2025-06-10T23:54:23.374-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.133 seconds

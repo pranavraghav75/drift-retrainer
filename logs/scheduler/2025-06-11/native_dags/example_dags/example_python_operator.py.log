@@ -1,0 +1,16 @@
+[2025-06-10T23:54:09.920-0400] {processor.py:186} INFO - Started process (PID=23646) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-10T23:54:09.922-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-06-10T23:54:09.922-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:09.922-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-10T23:54:09.931-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:09.931-0400] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-06-10T23:54:09.933-0400] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-10T23:54:10.027-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.027-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_python_operator
+[2025-06-10T23:54:10.031-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.030-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2025-06-10T23:54:10.032-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.032-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2025-06-10T23:54:10.035-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.035-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_python_operator
+[2025-06-10T23:54:10.037-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.037-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_python_operator
+[2025-06-10T23:54:10.039-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.039-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_python_operator
+[2025-06-10T23:54:10.041-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.041-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_python_operator
+[2025-06-10T23:54:10.041-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.041-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-10T23:54:10.045-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.045-0400] {dag.py:3262} INFO - Creating ORM DAG for example_python_operator
+[2025-06-10T23:54:10.045-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:10.045-0400] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-06-10T23:54:10.051-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.132 seconds

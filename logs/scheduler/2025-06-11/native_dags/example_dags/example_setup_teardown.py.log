@@ -1,0 +1,15 @@
+[2025-06-10T23:54:03.971-0400] {processor.py:186} INFO - Started process (PID=23638) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-10T23:54:03.973-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-06-10T23:54:03.973-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:03.973-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-10T23:54:03.977-0400] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-10T23:54:04.078-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.077-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2025-06-10T23:54:04.081-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.081-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2025-06-10T23:54:04.083-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.083-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2025-06-10T23:54:04.086-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.086-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2025-06-10T23:54:04.089-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.088-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2025-06-10T23:54:04.091-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.091-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2025-06-10T23:54:04.093-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.093-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2025-06-10T23:54:04.093-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.093-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-10T23:54:04.097-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.097-0400] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2025-06-10T23:54:04.097-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:54:04.097-0400] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-06-10T23:54:04.104-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.135 seconds

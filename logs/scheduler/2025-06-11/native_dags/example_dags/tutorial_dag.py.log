@@ -1,0 +1,15 @@
+[2025-06-10T23:53:35.243-0400] {processor.py:186} INFO - Started process (PID=23591) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T23:53:35.245-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-10T23:53:35.246-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.246-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T23:53:35.256-0400] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T23:53:35.348-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.348-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-06-10T23:53:35.351-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.351-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-06-10T23:53:35.353-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.353-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-06-10T23:53:35.356-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.356-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2025-06-10T23:53:35.358-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.358-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2025-06-10T23:53:35.359-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.359-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2025-06-10T23:53:35.361-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.361-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2025-06-10T23:53:35.361-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.361-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-10T23:53:35.366-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.366-0400] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2025-06-10T23:53:35.366-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:35.366-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-10T23:53:35.371-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.129 seconds

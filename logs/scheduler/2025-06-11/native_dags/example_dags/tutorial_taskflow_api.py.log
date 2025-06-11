@@ -1,0 +1,15 @@
+[2025-06-10T23:53:33.096-0400] {processor.py:186} INFO - Started process (PID=23584) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-10T23:53:33.098-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-10T23:53:33.099-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.098-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-10T23:53:33.112-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-10T23:53:33.204-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.204-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2025-06-10T23:53:33.208-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.208-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2025-06-10T23:53:33.209-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.209-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2025-06-10T23:53:33.212-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.212-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_api
+[2025-06-10T23:53:33.214-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.214-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_api
+[2025-06-10T23:53:33.216-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.216-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_api
+[2025-06-10T23:53:33.217-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.217-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_api
+[2025-06-10T23:53:33.218-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.218-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-10T23:53:33.221-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.221-0400] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2025-06-10T23:53:33.222-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:33.222-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-10T23:53:33.227-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.132 seconds
