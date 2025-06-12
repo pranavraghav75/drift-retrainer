@@ -1,0 +1,8 @@
+[2025-06-11T23:43:43.435-0400] {processor.py:186} INFO - Started process (PID=54214) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-11T23:43:43.436-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-06-11T23:43:43.437-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:43.437-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-11T23:43:43.447-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:43.447-0400] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-06-11T23:43:43.449-0400] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2025-06-11T23:43:43.515-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:43.515-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-11T23:43:43.519-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:43.519-0400] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-06-11T23:43:43.527-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.093 seconds

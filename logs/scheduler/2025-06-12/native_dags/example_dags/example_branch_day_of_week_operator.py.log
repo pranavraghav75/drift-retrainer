@@ -1,0 +1,15 @@
+[2025-06-11T23:44:30.365-0400] {processor.py:186} INFO - Started process (PID=54333) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-06-11T23:44:30.367-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2025-06-11T23:44:30.367-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.367-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-06-11T23:44:30.372-0400] {processor.py:925} INFO - DAG(s) 'example_weekday_branch_operator' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-06-11T23:44:30.478-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.478-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_weekday_branch_operator
+[2025-06-11T23:44:30.481-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.481-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_weekday_branch_operator
+[2025-06-11T23:44:30.484-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.484-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_weekday_branch_operator
+[2025-06-11T23:44:30.487-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.487-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_weekday_branch_operator
+[2025-06-11T23:44:30.489-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.489-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_weekday_branch_operator
+[2025-06-11T23:44:30.491-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.491-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_weekday_branch_operator
+[2025-06-11T23:44:30.493-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.493-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_weekday_branch_operator
+[2025-06-11T23:44:30.493-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.493-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-11T23:44:30.497-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.497-0400] {dag.py:3262} INFO - Creating ORM DAG for example_weekday_branch_operator
+[2025-06-11T23:44:30.500-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:30.500-0400] {dag.py:4180} INFO - Setting next_dagrun for example_weekday_branch_operator to 2025-06-11T00:00:00+00:00, run_after=2025-06-12T00:00:00+00:00
+[2025-06-11T23:44:30.508-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.144 seconds

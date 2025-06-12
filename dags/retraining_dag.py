@@ -26,7 +26,7 @@ with DAG(
 
     wait_for_flag = FileSensor(
         task_id="wait_for_drift_flag",
-        filepath="trigger_retrain.flag",   # relative to cwd
+        filepath="trigger_retrain.flag",
         fs_conn_id="fs_default",
         poke_interval=60,                 
         timeout=60 * 60,                   # 1 hour timeout

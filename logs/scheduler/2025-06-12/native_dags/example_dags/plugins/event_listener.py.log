@@ -1,0 +1,10 @@
+[2025-06-11T23:42:56.142-0400] {processor.py:186} INFO - Started process (PID=54108) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-11T23:42:56.144-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2025-06-11T23:42:56.144-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:42:56.144-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-11T23:42:56.145-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-11T23:42:56.212-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py took 0.072 seconds
+[2025-06-11T23:44:47.200-0400] {processor.py:186} INFO - Started process (PID=54373) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-11T23:44:47.202-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2025-06-11T23:44:47.202-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:47.202-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-11T23:44:47.203-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-11T23:44:47.269-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py took 0.071 seconds

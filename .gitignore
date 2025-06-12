@@ -1,2 +1,4 @@
 .env
 .gitattributes
+/venv311
+/venv

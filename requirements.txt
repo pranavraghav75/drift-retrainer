@@ -7,3 +7,4 @@ evidently==0.3.1
 apache-airflow
 sqlalchemy
 numpy==1.26.4
+psycopg2-binary

@@ -1,0 +1,14 @@
+[2025-06-11T23:42:59.278-0400] {processor.py:186} INFO - Started process (PID=54117) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-06-11T23:42:59.279-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-06-11T23:42:59.280-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:42:59.280-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-06-11T23:42:59.300-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-06-11T23:42:59.370-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:42:59.370-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-11T23:42:59.377-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:42:59.377-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2025-06-11T00:00:00+00:00, run_after=2025-06-12T00:00:00+00:00
+[2025-06-11T23:42:59.384-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.108 seconds
+[2025-06-11T23:44:50.071-0400] {processor.py:186} INFO - Started process (PID=54383) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-06-11T23:44:50.073-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2025-06-11T23:44:50.074-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:50.074-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-06-11T23:44:50.092-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2025-06-11T23:44:50.165-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:50.165-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-11T23:44:50.173-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:50.173-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2025-06-11T00:00:00+00:00, run_after=2025-06-12T00:00:00+00:00
+[2025-06-11T23:44:50.181-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.112 seconds

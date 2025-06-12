@@ -1,0 +1,15 @@
+[2025-06-11T23:44:28.368-0400] {processor.py:186} INFO - Started process (PID=54324) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-11T23:44:28.370-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-06-11T23:44:28.370-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.370-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-11T23:44:28.375-0400] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-06-11T23:44:28.485-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.485-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2025-06-11T23:44:28.489-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.489-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2025-06-11T23:44:28.491-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.491-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2025-06-11T23:44:28.494-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.494-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_branch_labels
+[2025-06-11T23:44:28.496-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.496-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_branch_labels
+[2025-06-11T23:44:28.498-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.498-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_branch_labels
+[2025-06-11T23:44:28.500-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.500-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_branch_labels
+[2025-06-11T23:44:28.500-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.500-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-11T23:44:28.504-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.504-0400] {dag.py:3262} INFO - Creating ORM DAG for example_branch_labels
+[2025-06-11T23:44:28.508-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:28.508-0400] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-06-11T00:00:00+00:00, run_after=2025-06-12T00:00:00+00:00
+[2025-06-11T23:44:28.515-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.148 seconds
