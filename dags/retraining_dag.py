@@ -2,11 +2,9 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.sensors.filesystem import FileSensor
 from airflow.operators.bash import BashOperator
-from dotenv import load_dotenv
 import os
 
-load_dotenv()
-path = os.getenv("path-to-project")
+path = "Users/pranavr/drift-retrainer"
 
 default_args = {
     "owner": "airflow",

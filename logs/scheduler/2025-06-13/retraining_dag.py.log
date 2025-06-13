@@ -1,0 +1,579 @@
+[2025-06-13T14:09:24.019-0400] {processor.py:153} INFO - Started process (PID=96509) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:09:24.021-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:09:24.021-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:09:24.021-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:09:24.036-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:09:24.035-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:09:24.037-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:09:24.859-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.840 seconds
+[2025-06-13T14:10:56.384-0400] {processor.py:153} INFO - Started process (PID=97203) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:10:56.386-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:10:56.387-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:56.387-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:10:56.400-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:56.399-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:10:56.400-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:10:56.880-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.496 seconds
+[2025-06-13T14:11:55.086-0400] {processor.py:153} INFO - Started process (PID=97487) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:11:55.088-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:11:55.088-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:11:55.088-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:11:55.101-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:11:55.100-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:11:55.101-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:11:55.596-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.511 seconds
+[2025-06-13T14:12:53.072-0400] {processor.py:153} INFO - Started process (PID=97748) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:12:53.074-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:12:53.075-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:12:53.075-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:12:53.086-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:12:53.086-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:12:53.086-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:12:53.556-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.484 seconds
+[2025-06-13T14:13:48.270-0400] {processor.py:153} INFO - Started process (PID=97943) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:13:48.279-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:13:48.279-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:13:48.279-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:13:48.297-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:13:48.296-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:13:48.297-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:13:48.741-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.471 seconds
+[2025-06-13T14:14:41.158-0400] {processor.py:153} INFO - Started process (PID=800) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:14:41.160-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:14:41.161-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:14:41.160-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:14:41.177-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:14:41.176-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:14:41.177-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:14:41.670-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.512 seconds
+[2025-06-13T14:15:40.056-0400] {processor.py:153} INFO - Started process (PID=2945) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:15:40.058-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:15:40.059-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:15:40.059-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:15:40.072-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:15:40.071-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:15:40.072-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:15:40.555-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.499 seconds
+[2025-06-13T14:16:38.573-0400] {processor.py:153} INFO - Started process (PID=3566) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:16:38.575-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:16:38.576-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:16:38.575-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:16:38.592-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:16:38.591-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:16:38.592-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:16:39.215-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.643 seconds
+[2025-06-13T14:17:33.801-0400] {processor.py:153} INFO - Started process (PID=3998) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:17:33.803-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:17:33.803-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:17:33.803-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:17:33.817-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:17:33.816-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:17:33.818-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:17:34.281-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.481 seconds
+[2025-06-13T14:18:32.990-0400] {processor.py:153} INFO - Started process (PID=6338) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:18:32.992-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:18:32.992-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:18:32.992-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:18:33.007-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:18:33.006-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:18:33.007-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:18:33.478-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.489 seconds
+[2025-06-13T14:19:35.272-0400] {processor.py:153} INFO - Started process (PID=6515) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:19:35.274-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:19:35.275-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:19:35.275-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:19:35.289-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:19:35.288-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:19:35.289-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:19:35.764-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.493 seconds
+[2025-06-13T14:20:38.730-0400] {processor.py:153} INFO - Started process (PID=6722) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:20:38.732-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:20:38.732-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:20:38.732-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:20:38.753-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:20:38.753-0400] {dagbag.py:343} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:20:38.753-0400] {processor.py:755} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:20:39.257-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 0.527 seconds
+[2025-06-13T14:21:15.775-0400] {processor.py:186} INFO - Started process (PID=7322) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:21:15.777-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:21:15.778-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:21:15.778-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:21:15.791-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:21:15.789-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:21:15.792-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:21:16.121-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 347.531 seconds
+[2025-06-13T14:23:23.091-0400] {processor.py:186} INFO - Started process (PID=7821) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:23:23.093-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:23:23.095-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:23:23.095-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:23:23.102-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:23:23.101-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:23:23.102-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:23:23.473-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 385.107 seconds
+[2025-06-13T14:24:55.338-0400] {processor.py:186} INFO - Started process (PID=7949) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:24:55.341-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:24:55.341-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:24:55.341-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:24:55.346-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:24:55.345-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:24:55.346-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:24:55.725-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 387.864 seconds
+[2025-06-13T14:26:26.623-0400] {processor.py:186} INFO - Started process (PID=8059) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:26:26.625-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:26:26.626-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:26:26.626-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:26:26.631-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:26:26.630-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:26:26.631-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:26:26.971-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 350.465 seconds
+[2025-06-13T14:27:58.386-0400] {processor.py:186} INFO - Started process (PID=8757) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:27:58.388-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:27:58.389-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:27:58.389-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:27:58.396-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:27:58.395-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:27:58.396-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:27:58.820-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 435.932 seconds
+[2025-06-13T14:29:30.287-0400] {processor.py:186} INFO - Started process (PID=8882) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:29:30.291-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:29:30.291-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:29:30.291-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:29:30.296-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:29:30.295-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:29:30.296-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:29:30.615-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 329.456 seconds
+[2025-06-13T14:30:59.685-0400] {processor.py:186} INFO - Started process (PID=9320) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:30:59.688-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:30:59.688-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:30:59.688-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:30:59.693-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:30:59.692-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:30:59.693-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:31:00.074-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 390.665 seconds
+[2025-06-13T14:32:27.954-0400] {processor.py:186} INFO - Started process (PID=9519) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:32:27.956-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:32:27.956-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:32:27.956-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:32:27.961-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:32:27.960-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:32:27.961-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:32:28.261-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 308.731 seconds
+[2025-06-13T14:34:01.609-0400] {processor.py:186} INFO - Started process (PID=9782) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:34:01.612-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:34:01.613-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:34:01.613-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:34:01.618-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:34:01.617-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:34:01.618-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:34:02.008-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 400.340 seconds
+[2025-06-13T14:35:33.267-0400] {processor.py:186} INFO - Started process (PID=10171) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:35:33.270-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:35:33.271-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:35:33.271-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:35:33.278-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:35:33.277-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:35:33.278-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:35:33.596-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 333.237 seconds
+[2025-06-13T14:37:03.946-0400] {processor.py:186} INFO - Started process (PID=11019) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:37:03.948-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:37:03.950-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:37:03.950-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:37:03.957-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:37:03.954-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:37:03.957-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:37:04.379-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 435.216 seconds
+[2025-06-13T14:38:33.104-0400] {processor.py:186} INFO - Started process (PID=11227) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:38:33.106-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:38:33.107-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:38:33.107-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:38:33.121-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:38:33.121-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:38:33.121-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:38:33.457-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 355.157 seconds
+[2025-06-13T14:39:56.013-0400] {processor.py:186} INFO - Started process (PID=11453) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:39:56.015-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:39:56.015-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:39:56.015-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:39:56.018-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:39:56.018-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:39:56.018-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:39:56.275-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 263.146 seconds
+[2025-06-13T14:41:13.609-0400] {processor.py:186} INFO - Started process (PID=11728) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:41:13.611-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:41:13.611-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:41:13.611-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:41:13.614-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:41:13.614-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:41:13.614-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:41:13.866-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 258.424 seconds
+[2025-06-13T14:42:28.634-0400] {processor.py:186} INFO - Started process (PID=11837) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:42:28.635-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:42:28.636-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:42:28.636-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:42:28.638-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:42:28.638-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:42:28.639-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:42:28.908-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 275.704 seconds
+[2025-06-13T14:43:41.565-0400] {processor.py:186} INFO - Started process (PID=11975) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:43:41.566-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:43:41.567-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:43:41.567-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:43:41.569-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:43:41.569-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:43:41.569-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:43:41.827-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 263.283 seconds
+[2025-06-13T14:44:53.611-0400] {processor.py:186} INFO - Started process (PID=12124) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:44:53.613-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:44:53.613-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:44:53.613-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:44:53.616-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:44:53.616-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:44:53.616-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:44:53.879-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 269.076 seconds
+[2025-06-13T14:46:06.356-0400] {processor.py:186} INFO - Started process (PID=12300) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:46:06.358-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:46:06.358-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:46:06.358-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:46:06.361-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:46:06.360-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:46:06.361-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:46:06.610-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 254.937 seconds
+[2025-06-13T14:47:17.746-0400] {processor.py:186} INFO - Started process (PID=12391) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:47:17.748-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:47:17.748-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:47:17.748-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:47:17.751-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:47:17.750-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:47:17.751-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:47:18.003-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 258.123 seconds
+[2025-06-13T14:48:33.898-0400] {processor.py:186} INFO - Started process (PID=12503) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:48:33.900-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:48:33.901-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:48:33.901-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:48:33.904-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:48:33.903-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:48:33.904-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:48:34.161-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 264.444 seconds
+[2025-06-13T14:49:47.290-0400] {processor.py:186} INFO - Started process (PID=12624) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:49:47.293-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:49:47.293-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:49:47.293-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:49:47.297-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:49:47.296-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:49:47.297-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:49:47.557-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 268.069 seconds
+[2025-06-13T14:51:01.643-0400] {processor.py:186} INFO - Started process (PID=12745) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:51:01.644-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:51:01.645-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:51:01.645-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:51:01.648-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:51:01.648-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:51:01.648-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:51:01.904-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 262.453 seconds
+[2025-06-13T14:52:16.742-0400] {processor.py:186} INFO - Started process (PID=13993) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:52:16.744-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:52:16.744-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:52:16.744-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:52:16.748-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:52:16.748-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:52:16.748-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:52:17.068-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 327.957 seconds
+[2025-06-13T14:53:30.719-0400] {processor.py:186} INFO - Started process (PID=14092) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:53:30.721-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:53:30.722-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:53:30.722-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:53:30.725-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:53:30.724-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:53:30.725-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:53:30.982-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 264.325 seconds
+[2025-06-13T14:54:46.910-0400] {processor.py:186} INFO - Started process (PID=14206) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:54:46.913-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:54:46.913-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:54:46.913-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:54:46.917-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:54:46.916-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:54:46.917-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:54:47.181-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 272.119 seconds
+[2025-06-13T14:56:05.476-0400] {processor.py:186} INFO - Started process (PID=14351) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:56:05.478-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:56:05.478-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:56:05.478-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:56:05.481-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:56:05.481-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:56:05.481-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:56:05.736-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 261.468 seconds
+[2025-06-13T14:57:19.612-0400] {processor.py:186} INFO - Started process (PID=14450) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:57:19.614-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:57:19.615-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:57:19.615-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:57:19.618-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:57:19.618-0400] {dagbag.py:387} ERROR - Failed to import: /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+Traceback (most recent call last):
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavr/drift-retrainer/dags/retraining_dag.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2025-06-13T14:57:19.619-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:57:19.932-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 320.367 seconds
+[2025-06-13T14:58:43.274-0400] {processor.py:186} INFO - Started process (PID=14698) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:58:43.276-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T14:58:43.277-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.277-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:58:43.283-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T14:58:43.710-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.710-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:retrain_pipeline
+[2025-06-13T14:58:43.713-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.713-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:retrain_pipeline
+[2025-06-13T14:58:43.715-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.715-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:retrain_pipeline
+[2025-06-13T14:58:43.719-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.718-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:retrain_pipeline
+[2025-06-13T14:58:43.721-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.721-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:retrain_pipeline
+[2025-06-13T14:58:43.723-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.723-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:retrain_pipeline
+[2025-06-13T14:58:43.725-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.725-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:retrain_pipeline
+[2025-06-13T14:58:43.725-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.725-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:58:43.729-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.729-0400] {dag.py:3262} INFO - Creating ORM DAG for retrain_pipeline
+[2025-06-13T14:58:43.732-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:43.732-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-13T17:00:00+00:00, run_after=2025-06-13T18:00:00+00:00
+[2025-06-13T14:58:43.739-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 465.930 seconds
+[2025-06-13T15:00:04.621-0400] {processor.py:186} INFO - Started process (PID=14836) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:00:04.624-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T15:00:04.624-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:00:04.624-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:00:04.631-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:00:10.911-0400] {processor.py:186} INFO - Started process (PID=14923) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:00:10.913-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T15:00:10.913-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:00:10.913-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:00:10.920-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:00:11.203-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:00:11.203-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:00:11.211-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:00:11.211-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-13T18:00:00+00:00, run_after=2025-06-13T19:00:00+00:00
+[2025-06-13T15:00:11.257-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 347.874 seconds
+[2025-06-13T15:02:10.131-0400] {processor.py:186} INFO - Started process (PID=15240) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:02:10.133-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-13T15:02:10.134-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:10.134-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:02:10.141-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-13T15:02:10.700-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:10.700-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:02:10.709-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:10.708-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-13T18:00:00+00:00, run_after=2025-06-13T19:00:00+00:00
+[2025-06-13T15:02:10.758-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 628.360 seconds

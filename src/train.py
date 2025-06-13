@@ -6,6 +6,7 @@ import mlflow.xgboost
 import xgboost as xgb
 import os
 
+print("Starting training...")
 df = pd.read_csv("data/processed/train.csv")  # assume this is already clean
 X = df.drop(columns=["target"])
 y = df["target"]
@@ -13,9 +14,13 @@ y = df["target"]
 X_train, X_val, y_train, y_val = train_test_split(
     X, y, test_size=0.2, random_state=42, stratify=y
 )
+
+print(f"Training data shape: {X_train.shape}, Validation data shape: {X_val.shape}"
+      )
 # starting MLflow run
 mlflow.set_tracking_uri("http://localhost:5000")  # MLflow server URL
 mlflow.set_experiment("Churn-Detection-Drift")    # either creates or switches to the experiment
+print('starting MLflow run...')
 
 with mlflow.start_run():
     ratio_of_0_to_1 = len(y_train[y_train == 0]) / len(y_train[y_train == 1])

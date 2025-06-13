@@ -1,0 +1,238 @@
+[2025-06-13T14:10:25.791-0400] {processor.py:153} INFO - Started process (PID=96601) to work on /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:10:25.793-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:10:25.794-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:25.794-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:10:25.831-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_external_task_marker_child', 'example_external_task_marker_parent']) retrieved from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:10:26.441-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.441-0400] {manager.py:504} INFO - Created Permission View: can read on DAG:example_external_task_marker_child
+[2025-06-13T14:10:26.445-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.445-0400] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_external_task_marker_child
+[2025-06-13T14:10:26.448-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.448-0400] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_external_task_marker_child
+[2025-06-13T14:10:26.453-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.452-0400] {manager.py:504} INFO - Created Permission View: can read on DAG:example_external_task_marker_parent
+[2025-06-13T14:10:26.455-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.455-0400] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_external_task_marker_parent
+[2025-06-13T14:10:26.458-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.457-0400] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_external_task_marker_parent
+[2025-06-13T14:10:26.458-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.458-0400] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-06-13T14:10:26.462-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.462-0400] {dag.py:2711} INFO - Creating ORM DAG for example_external_task_marker_parent
+[2025-06-13T14:10:26.462-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.462-0400] {dag.py:2711} INFO - Creating ORM DAG for example_external_task_marker_child
+[2025-06-13T14:10:26.465-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.465-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:10:26.465-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:10:26.465-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:10:26.473-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.690 seconds
+[2025-06-13T14:12:25.917-0400] {processor.py:153} INFO - Started process (PID=97733) to work on /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:12:25.920-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:12:25.920-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:12:25.920-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:12:25.934-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:12:26.512-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:12:26.512-0400] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-06-13T14:12:26.519-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:12:26.519-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:12:26.520-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:12:26.520-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:12:26.527-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.613 seconds
+[2025-06-13T14:14:14.788-0400] {processor.py:153} INFO - Started process (PID=98255) to work on /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:14:14.791-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:14:14.791-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:14:14.791-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:14:14.807-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:14:15.374-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:14:15.374-0400] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-06-13T14:14:15.381-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:14:15.381-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:14:15.382-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:14:15.382-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:14:15.390-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.602 seconds
+[2025-06-13T14:16:11.709-0400] {processor.py:153} INFO - Started process (PID=3348) to work on /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:16:11.715-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:16:11.715-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:16:11.715-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:16:11.731-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_external_task_marker_child', 'example_external_task_marker_parent']) retrieved from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:16:12.236-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:16:12.236-0400] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-06-13T14:16:12.244-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:16:12.244-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:16:12.245-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:16:12.245-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:16:12.253-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.545 seconds
+[2025-06-13T14:18:03.453-0400] {processor.py:153} INFO - Started process (PID=5794) to work on /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:18:03.456-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:18:03.456-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:18:03.456-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:18:03.474-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_external_task_marker_child', 'example_external_task_marker_parent']) retrieved from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:18:03.989-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:18:03.989-0400] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-06-13T14:18:03.996-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:18:03.995-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:18:03.997-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:18:03.997-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:18:04.005-0400] {processor.py:175} INFO - Processing /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.552 seconds
+[2025-06-13T14:20:06.909-0400] {processor.py:153} INFO - Started process (PID=6633) to work on /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:20:06.912-0400] {processor.py:743} INFO - Processing file /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:20:06.912-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:20:06.912-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:20:06.960-0400] {processor.py:753} INFO - DAG(s) dict_keys(['example_external_task_marker_child', 'example_external_task_marker_parent']) retrieved from /Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:20:07.935-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:20:07.935-0400] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-06-13T14:20:07.943-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:20:07.942-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:20:07.943-0400] {logging_mixin.py:137} INFO - [2025-06-13T14:20:07.943-0400] {dag.py:3437} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:20:08.308-0400] {processor.py:178} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 174, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 155, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 768, in process_file
+    dagbag.sync_to_db(processor_subdir=self._dag_directory, session=session)
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 645, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/tenacity/__init__.py", line 384, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/tenacity/__init__.py", line 351, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dagbag.py", line 659, in sync_to_db
+    DAG.bulk_write_to_db(
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/airflow/models/dag.py", line 2851, in bulk_write_to_db
+    session.flush()  # this is required to ensure each dataset has its PK loaded
+    ^^^^^^^^^^^^^^^
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 3444, in flush
+    self._flush(objects)
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 3583, in _flush
+    with util.safe_reraise():
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 3544, in _flush
+    flush_context.execute()
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 237, in save_obj
+    _emit_update_statements(
+  File "/Users/pranavr/drift-retrainer/venv311/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 1035, in _emit_update_statements
+    raise orm_exc.StaleDataError(
+sqlalchemy.orm.exc.StaleDataError: UPDATE statement on table 'serialized_dag' expected to update 1 row(s); 0 were matched.
+[2025-06-13T14:22:46.159-0400] {processor.py:186} INFO - Started process (PID=7741) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:22:46.162-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:22:46.164-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:22:46.164-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:22:46.172-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:22:46.725-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:22:46.724-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:22:46.730-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:22:46.730-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:22:46.731-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:22:46.731-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:22:46.739-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 581.622 seconds
+[2025-06-13T14:24:48.432-0400] {processor.py:186} INFO - Started process (PID=7940) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:24:48.434-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:24:48.435-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:24:48.435-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:24:48.449-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:24:48.904-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:24:48.904-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:24:48.910-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:24:48.910-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:24:48.912-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:24:48.912-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:24:48.929-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 499.083 seconds
+[2025-06-13T14:27:51.754-0400] {processor.py:186} INFO - Started process (PID=8738) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:27:51.756-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:27:51.757-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:27:51.756-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:27:51.764-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:27:52.207-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:27:52.207-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:27:52.212-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:27:52.211-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:27:52.213-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:27:52.213-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:27:52.222-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 469.483 seconds
+[2025-06-13T14:30:53.563-0400] {processor.py:186} INFO - Started process (PID=9228) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:30:53.565-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:30:53.566-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:30:53.566-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:30:53.577-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:30:53.978-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:30:53.977-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:30:53.983-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:30:53.983-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:30:53.985-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:30:53.985-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:30:53.994-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 432.306 seconds
+[2025-06-13T14:33:55.592-0400] {processor.py:186} INFO - Started process (PID=9757) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:33:55.594-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:33:55.595-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:33:55.595-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:33:55.601-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:33:56.003-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:33:56.003-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:33:56.012-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:33:56.012-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:33:56.014-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:33:56.014-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:33:56.026-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 435.402 seconds
+[2025-06-13T14:36:57.867-0400] {processor.py:186} INFO - Started process (PID=11006) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:36:57.871-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:36:57.872-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:36:57.872-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:36:57.888-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:36:58.318-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:36:58.318-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:36:58.324-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:36:58.324-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:36:58.326-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:36:58.326-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:36:58.335-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 472.625 seconds
+[2025-06-13T14:39:50.172-0400] {processor.py:186} INFO - Started process (PID=11447) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:39:50.175-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:39:50.175-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:39:50.175-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:39:50.180-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:39:50.457-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:39:50.457-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:39:50.461-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:39:50.461-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:39:50.463-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:39:50.463-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:39:50.469-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 297.590 seconds
+[2025-06-13T14:42:22.838-0400] {processor.py:186} INFO - Started process (PID=11831) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:42:22.840-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:42:22.841-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:42:22.840-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:42:22.845-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:42:23.104-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:42:23.104-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:42:23.108-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:42:23.108-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:42:23.110-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:42:23.110-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:42:23.116-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 279.963 seconds
+[2025-06-13T14:44:48.370-0400] {processor.py:186} INFO - Started process (PID=12113) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:44:48.372-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:44:48.372-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:44:48.372-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:44:48.377-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:44:48.645-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:44:48.645-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:44:48.650-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:44:48.649-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:44:48.651-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:44:48.651-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:44:48.657-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 287.809 seconds
+[2025-06-13T14:47:12.097-0400] {processor.py:186} INFO - Started process (PID=12385) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:47:12.099-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:47:12.099-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:47:12.099-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:47:12.104-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:47:12.356-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:47:12.356-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:47:12.360-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:47:12.360-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:47:12.361-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:47:12.361-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:47:12.368-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 272.000 seconds
+[2025-06-13T14:49:42.429-0400] {processor.py:186} INFO - Started process (PID=12618) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:49:42.432-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:49:42.432-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:49:42.432-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:49:42.437-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:49:42.745-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:49:42.744-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:49:42.749-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:49:42.749-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:49:42.750-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:49:42.750-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:49:42.757-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 329.549 seconds
+[2025-06-13T14:52:10.789-0400] {processor.py:186} INFO - Started process (PID=13975) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:52:10.791-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:52:10.792-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:52:10.792-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:52:10.797-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:52:11.108-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:52:11.108-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:52:11.112-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:52:11.112-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:52:11.113-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:52:11.113-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:52:11.119-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 331.698 seconds
+[2025-06-13T14:54:40.773-0400] {processor.py:186} INFO - Started process (PID=14200) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:54:40.776-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:54:40.776-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:54:40.776-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:54:40.782-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:54:41.119-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:54:41.119-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:54:41.123-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:54:41.123-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:54:41.124-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:54:41.124-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:54:41.131-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 359.632 seconds
+[2025-06-13T14:57:13.610-0400] {processor.py:186} INFO - Started process (PID=14444) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:57:13.612-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:57:13.613-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:57:13.613-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:57:13.618-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:57:13.953-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:57:13.953-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:57:13.958-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:57:13.958-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:57:13.959-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:57:13.959-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:57:13.965-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 356.899 seconds
+[2025-06-13T14:59:59.248-0400] {processor.py:186} INFO - Started process (PID=14828) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:59:59.250-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T14:59:59.250-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:59:59.250-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:59:59.257-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T14:59:59.717-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:59:59.717-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T14:59:59.722-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:59:59.722-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T14:59:59.723-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:59:59.723-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T14:59:59.730-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 483.920 seconds
+[2025-06-13T15:01:37.058-0400] {processor.py:186} INFO - Started process (PID=15150) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T15:01:37.062-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2025-06-13T15:01:37.062-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:37.062-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T15:01:37.068-0400] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2025-06-13T15:01:37.539-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:37.539-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:01:37.544-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:37.544-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2025-06-13T15:01:37.546-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:37.545-0400] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2025-06-13T15:01:37.552-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 496.173 seconds

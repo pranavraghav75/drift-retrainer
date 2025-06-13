@@ -1,7 +1,0 @@
-[2025-06-11T23:43:21.789-0400] {processor.py:186} INFO - Started process (PID=54162) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
-[2025-06-11T23:43:21.791-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
-[2025-06-11T23:43:21.791-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:21.791-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
-[2025-06-11T23:43:21.812-0400] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py
-[2025-06-11T23:43:21.885-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:21.885-0400] {dag.py:3239} INFO - Sync 1 DAGs
-[2025-06-11T23:43:21.889-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:21.889-0400] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
-[2025-06-11T23:43:21.897-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.110 seconds

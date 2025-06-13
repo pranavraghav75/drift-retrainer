@@ -1,7 +1,0 @@
-[2025-06-11T23:43:05.194-0400] {processor.py:186} INFO - Started process (PID=54128) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_objectstorage.py
-[2025-06-11T23:43:05.196-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
-[2025-06-11T23:43:05.196-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:05.196-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_objectstorage.py
-[2025-06-11T23:43:05.214-0400] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_objectstorage.py
-[2025-06-11T23:43:05.283-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:05.283-0400] {dag.py:3239} INFO - Sync 1 DAGs
-[2025-06-11T23:43:05.287-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:05.287-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
-[2025-06-11T23:43:05.295-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.103 seconds

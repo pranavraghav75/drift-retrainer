@@ -1,5 +1,0 @@
-[2025-06-10T23:53:22.169-0400] {processor.py:186} INFO - Started process (PID=23567) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
-[2025-06-10T23:53:22.170-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
-[2025-06-10T23:53:22.171-0400] {logging_mixin.py:190} INFO - [2025-06-10T23:53:22.171-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
-[2025-06-10T23:53:22.418-0400] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
-[2025-06-10T23:53:22.458-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.290 seconds

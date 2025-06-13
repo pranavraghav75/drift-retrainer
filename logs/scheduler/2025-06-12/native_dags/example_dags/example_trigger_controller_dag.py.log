@@ -1,7 +1,0 @@
-[2025-06-11T23:43:18.258-0400] {processor.py:186} INFO - Started process (PID=54156) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_trigger_controller_dag.py
-[2025-06-11T23:43:18.259-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
-[2025-06-11T23:43:18.260-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:18.260-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_trigger_controller_dag.py
-[2025-06-11T23:43:18.265-0400] {processor.py:925} INFO - DAG(s) 'example_trigger_controller_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_trigger_controller_dag.py
-[2025-06-11T23:43:18.336-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:18.336-0400] {dag.py:3239} INFO - Sync 1 DAGs
-[2025-06-11T23:43:18.343-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:18.343-0400] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
-[2025-06-11T23:43:18.351-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.094 seconds

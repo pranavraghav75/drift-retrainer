@@ -1,7 +1,0 @@
-[2025-06-11T23:43:49.035-0400] {processor.py:186} INFO - Started process (PID=54230) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
-[2025-06-11T23:43:49.037-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
-[2025-06-11T23:43:49.037-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:49.037-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
-[2025-06-11T23:43:49.054-0400] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
-[2025-06-11T23:43:49.189-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:49.189-0400] {dag.py:3239} INFO - Sync 1 DAGs
-[2025-06-11T23:43:49.193-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:49.193-0400] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
-[2025-06-11T23:43:49.200-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.166 seconds

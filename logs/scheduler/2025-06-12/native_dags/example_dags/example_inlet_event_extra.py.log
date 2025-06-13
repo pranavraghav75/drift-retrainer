@@ -1,8 +1,0 @@
-[2025-06-11T23:44:03.010-0400] {processor.py:186} INFO - Started process (PID=54265) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_inlet_event_extra.py
-[2025-06-11T23:44:03.012-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_inlet_event_extra.py for tasks to queue
-[2025-06-11T23:44:03.012-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:03.012-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_inlet_event_extra.py
-[2025-06-11T23:44:03.041-0400] {processor.py:925} INFO - DAG(s) 'read_dataset_event', 'read_dataset_event_from_classic' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_inlet_event_extra.py
-[2025-06-11T23:44:03.108-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:03.108-0400] {dag.py:3239} INFO - Sync 2 DAGs
-[2025-06-11T23:44:03.116-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:03.116-0400] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event to 2025-06-11T00:00:00+00:00, run_after=2025-06-12T00:00:00+00:00
-[2025-06-11T23:44:03.117-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:44:03.117-0400] {dag.py:4180} INFO - Setting next_dagrun for read_dataset_event_from_classic to 2025-06-11T00:00:00+00:00, run_after=2025-06-12T00:00:00+00:00
-[2025-06-11T23:44:03.124-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_inlet_event_extra.py took 0.115 seconds

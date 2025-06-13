@@ -1,7 +1,0 @@
-[2025-06-11T23:43:47.173-0400] {processor.py:186} INFO - Started process (PID=54221) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
-[2025-06-11T23:43:47.175-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
-[2025-06-11T23:43:47.176-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:47.175-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
-[2025-06-11T23:43:47.192-0400] {processor.py:925} INFO - DAG(s) 'example_passing_params_via_test_command' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
-[2025-06-11T23:43:47.260-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:47.260-0400] {dag.py:3239} INFO - Sync 1 DAGs
-[2025-06-11T23:43:47.268-0400] {logging_mixin.py:190} INFO - [2025-06-11T23:43:47.268-0400] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2025-06-12T03:42:00+00:00, run_after=2025-06-12T03:43:00+00:00
-[2025-06-11T23:43:47.276-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.104 seconds

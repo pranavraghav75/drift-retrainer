@@ -1,0 +1,105 @@
+[2025-06-13T14:22:52.808-0400] {processor.py:186} INFO - Started process (PID=7764) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:22:52.810-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:22:52.811-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:22:52.810-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:22:52.829-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:22:52.942-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:22:52.942-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:22:52.946-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:22:52.946-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:22:52.956-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 150.065 seconds
+[2025-06-13T14:25:55.928-0400] {processor.py:186} INFO - Started process (PID=8017) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:25:55.930-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:25:55.930-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:25:55.930-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:25:55.952-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:25:56.045-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:25:56.045-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:25:56.052-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:25:56.051-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:25:56.061-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 134.946 seconds
+[2025-06-13T14:28:59.426-0400] {processor.py:186} INFO - Started process (PID=8843) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:28:59.429-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:28:59.431-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:28:59.431-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:28:59.456-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:28:59.554-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:28:59.554-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:28:59.560-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:28:59.560-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:28:59.583-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 158.039 seconds
+[2025-06-13T14:31:57.544-0400] {processor.py:186} INFO - Started process (PID=9399) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:31:57.546-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:31:57.547-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:31:57.547-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:31:57.572-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:31:57.661-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:31:57.661-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:31:57.667-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:31:57.667-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:31:57.676-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 132.795 seconds
+[2025-06-13T14:35:03.292-0400] {processor.py:186} INFO - Started process (PID=10118) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:35:03.294-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:35:03.295-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:35:03.295-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:35:03.314-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:35:03.400-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:35:03.399-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:35:03.406-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:35:03.405-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:35:03.419-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 128.222 seconds
+[2025-06-13T14:38:02.471-0400] {processor.py:186} INFO - Started process (PID=11164) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:38:02.474-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:38:02.474-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:38:02.474-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:38:02.495-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:38:02.590-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:38:02.589-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:38:02.595-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:38:02.594-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:38:02.603-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 133.949 seconds
+[2025-06-13T14:40:46.263-0400] {processor.py:186} INFO - Started process (PID=11681) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:40:46.267-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:40:46.268-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:40:46.268-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:40:46.285-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:40:46.353-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:40:46.353-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:40:46.358-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:40:46.357-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:40:46.365-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 102.638 seconds
+[2025-06-13T14:43:15.106-0400] {processor.py:186} INFO - Started process (PID=11942) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:43:15.108-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:43:15.108-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:43:15.108-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:43:15.122-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:43:15.183-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:43:15.183-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:43:15.187-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:43:15.187-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:43:15.193-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 88.600 seconds
+[2025-06-13T14:45:40.273-0400] {processor.py:186} INFO - Started process (PID=12230) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:45:40.275-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:45:40.275-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:45:40.275-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:45:40.290-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:45:40.354-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:45:40.354-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:45:40.358-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:45:40.358-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:45:40.365-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 93.010 seconds
+[2025-06-13T14:48:06.491-0400] {processor.py:186} INFO - Started process (PID=12469) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:48:06.493-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:48:06.493-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:48:06.493-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:48:06.506-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:48:06.567-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:48:06.567-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:48:06.572-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:48:06.572-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:48:06.579-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 89.178 seconds
+[2025-06-13T14:50:34.458-0400] {processor.py:186} INFO - Started process (PID=12712) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:50:34.461-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:50:34.461-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:50:34.461-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:50:34.475-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:50:34.534-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:50:34.534-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:50:34.539-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:50:34.538-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:50:34.546-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 88.529 seconds
+[2025-06-13T14:53:03.795-0400] {processor.py:186} INFO - Started process (PID=14060) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:53:03.797-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:53:03.798-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:53:03.798-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:53:03.812-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:53:03.872-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:53:03.872-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:53:03.876-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:53:03.876-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:53:03.883-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 88.729 seconds
+[2025-06-13T14:55:39.215-0400] {processor.py:186} INFO - Started process (PID=14286) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:55:39.217-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:55:39.218-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:55:39.218-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:55:39.233-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:55:39.300-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:55:39.300-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:55:39.305-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:55:39.304-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:55:39.311-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 97.689 seconds
+[2025-06-13T14:58:14.961-0400] {processor.py:186} INFO - Started process (PID=14635) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:58:14.963-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T14:58:14.963-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:14.963-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:58:14.982-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T14:58:15.051-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:15.051-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T14:58:15.056-0400] {logging_mixin.py:190} INFO - [2025-06-13T14:58:15.056-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T14:58:15.064-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 104.721 seconds
+[2025-06-13T15:01:42.984-0400] {processor.py:186} INFO - Started process (PID=15156) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T15:01:42.986-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-06-13T15:01:42.986-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:42.986-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T15:01:43.002-0400] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-06-13T15:01:43.073-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:43.073-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:01:43.079-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:43.079-0400] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-06-13T15:01:43.087-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 104.250 seconds
