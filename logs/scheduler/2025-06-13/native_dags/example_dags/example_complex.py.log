@@ -185,3 +185,147 @@
 [2025-06-13T15:01:53.285-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:53.284-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-06-13T15:01:53.290-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:01:53.290-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2025-06-13T15:01:53.300-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 150.564 seconds
+[2025-06-13T15:05:54.764-0400] {processor.py:186} INFO - Started process (PID=16236) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:05:54.770-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:05:54.770-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:05:54.770-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:05:54.777-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:05:54.859-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:05:54.858-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:05:54.863-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:05:54.863-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:05:54.871-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 108.427 seconds
+[2025-06-13T15:08:34.272-0400] {processor.py:186} INFO - Started process (PID=16497) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:08:34.274-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:08:34.274-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:08:34.274-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:08:34.281-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:08:34.359-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:08:34.359-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:08:34.364-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:08:34.364-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:08:34.371-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 100.706 seconds
+[2025-06-13T15:11:22.899-0400] {processor.py:186} INFO - Started process (PID=16854) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:11:22.902-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:11:22.904-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:11:22.903-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:11:22.914-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:11:23.014-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:11:23.014-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:11:23.019-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:11:23.019-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:11:23.027-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 128.984 seconds
+[2025-06-13T15:20:07.209-0400] {processor.py:186} INFO - Started process (PID=17860) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:20:07.210-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:20:07.211-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:20:07.211-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:20:07.217-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:20:07.294-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:20:07.294-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:20:07.298-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:20:07.298-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:20:07.306-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 98.578 seconds
+[2025-06-13T15:26:23.872-0400] {processor.py:186} INFO - Started process (PID=19022) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:26:23.874-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:26:23.875-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:23.875-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:26:23.881-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:26:23.997-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:23.996-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-06-13T15:26:24.001-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.001-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-06-13T15:26:24.003-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.003-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_complex
+[2025-06-13T15:26:24.007-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.006-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2025-06-13T15:26:24.009-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.009-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2025-06-13T15:26:24.011-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.011-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_complex
+[2025-06-13T15:26:24.013-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.013-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_complex
+[2025-06-13T15:26:24.013-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.013-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:26:24.018-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.018-0400] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2025-06-13T15:26:24.018-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:26:24.018-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:26:24.025-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 154.144 seconds
+[2025-06-13T15:31:42.759-0400] {processor.py:186} INFO - Started process (PID=19966) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:31:42.762-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:31:42.762-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.762-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:31:42.769-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:31:42.904-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.904-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_complex
+[2025-06-13T15:31:42.909-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.909-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-06-13T15:31:42.911-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.911-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-06-13T15:31:42.915-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.915-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_complex
+[2025-06-13T15:31:42.917-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.917-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2025-06-13T15:31:42.921-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.921-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2025-06-13T15:31:42.924-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.923-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_complex
+[2025-06-13T15:31:42.924-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.924-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:31:42.929-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.928-0400] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2025-06-13T15:31:42.929-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:31:42.929-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:31:42.936-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 178.393 seconds
+[2025-06-13T15:37:13.847-0400] {processor.py:186} INFO - Started process (PID=20637) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:37:13.849-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:37:13.849-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.849-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:37:13.855-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:37:13.968-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.968-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_complex
+[2025-06-13T15:37:13.972-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.972-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-06-13T15:37:13.974-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.974-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-06-13T15:37:13.977-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.977-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_complex
+[2025-06-13T15:37:13.979-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.979-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2025-06-13T15:37:13.981-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.981-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2025-06-13T15:37:13.983-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.983-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_complex
+[2025-06-13T15:37:13.983-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.983-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:37:13.988-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.988-0400] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2025-06-13T15:37:13.988-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:13.988-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:37:13.996-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 150.708 seconds
+[2025-06-13T15:40:02.400-0400] {processor.py:186} INFO - Started process (PID=20900) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:40:02.403-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:40:02.403-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:40:02.403-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:40:02.411-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:40:02.502-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:40:02.502-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:40:02.507-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:40:02.507-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:40:02.516-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 117.291 seconds
+[2025-06-13T15:44:47.197-0400] {processor.py:186} INFO - Started process (PID=21806) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:44:47.199-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:44:47.200-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.200-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:44:47.207-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:44:47.344-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.344-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_complex
+[2025-06-13T15:44:47.348-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.348-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-06-13T15:44:47.351-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.351-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-06-13T15:44:47.354-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.354-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_complex
+[2025-06-13T15:44:47.356-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.356-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2025-06-13T15:44:47.359-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.359-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_complex
+[2025-06-13T15:44:47.361-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.361-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2025-06-13T15:44:47.362-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.362-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:44:47.366-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.366-0400] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2025-06-13T15:44:47.366-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:44:47.366-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:44:47.374-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 178.276 seconds
+[2025-06-13T15:47:44.151-0400] {processor.py:186} INFO - Started process (PID=22094) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:47:44.153-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:47:44.154-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:47:44.154-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:47:44.160-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:47:44.237-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:47:44.236-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:47:44.241-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:47:44.241-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:47:44.248-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 98.608 seconds
+[2025-06-13T15:50:32.946-0400] {processor.py:186} INFO - Started process (PID=22374) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:50:32.948-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:50:32.949-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:50:32.949-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:50:32.955-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:50:33.034-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:50:33.034-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:50:33.038-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:50:33.038-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:50:33.046-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 101.084 seconds
+[2025-06-13T15:53:01.355-0400] {processor.py:186} INFO - Started process (PID=22701) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:53:01.357-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:53:01.357-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:01.357-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:53:01.362-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:53:01.436-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:01.436-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:53:01.440-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:01.440-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:53:01.447-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 93.365 seconds
+[2025-06-13T15:55:29.164-0400] {processor.py:186} INFO - Started process (PID=22937) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:55:29.166-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:55:29.166-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:55:29.166-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:55:29.172-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:55:29.239-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:55:29.239-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:55:29.243-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:55:29.242-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:55:29.250-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 87.752 seconds
+[2025-06-13T15:57:52.675-0400] {processor.py:186} INFO - Started process (PID=23164) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:57:52.677-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T15:57:52.678-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:52.678-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:57:52.683-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T15:57:52.751-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:52.751-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:57:52.755-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:52.755-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T15:57:52.763-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 88.560 seconds
+[2025-06-13T16:00:17.873-0400] {processor.py:186} INFO - Started process (PID=23541) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T16:00:17.875-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T16:00:17.875-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:00:17.875-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T16:00:17.881-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T16:00:17.953-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:00:17.953-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T16:00:17.958-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:00:17.957-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T16:00:17.965-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 93.312 seconds
+[2025-06-13T16:02:52.348-0400] {processor.py:186} INFO - Started process (PID=23924) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T16:02:52.350-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-06-13T16:02:52.351-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:52.351-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T16:02:52.360-0400] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-06-13T16:02:52.446-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:52.446-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T16:02:52.451-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:52.451-0400] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-06-13T16:02:52.460-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 115.622 seconds

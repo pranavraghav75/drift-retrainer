@@ -326,3 +326,363 @@
 [2025-06-13T15:00:36.364-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:00:36.364-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2025-06-13T15:00:36.366-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:00:36.366-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2025-06-13T15:00:36.372-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 111.362 seconds
+[2025-06-13T15:02:39.511-0400] {processor.py:186} INFO - Started process (PID=15380) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:02:39.513-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:02:39.514-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:39.514-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:02:39.536-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:02:39.610-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:39.609-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:02:39.615-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:39.615-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:02:39.628-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:39.628-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:02:39.645-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 135.539 seconds
+[2025-06-13T15:04:38.000-0400] {processor.py:186} INFO - Started process (PID=15984) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:04:38.003-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:04:38.003-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:04:38.003-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:04:38.023-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:04:38.094-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:04:38.094-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:04:38.099-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:04:38.099-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:04:38.100-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:04:38.100-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:04:38.107-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 107.575 seconds
+[2025-06-13T15:06:33.359-0400] {processor.py:186} INFO - Started process (PID=16320) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:06:33.361-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:06:33.362-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:06:33.362-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:06:33.382-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:06:33.462-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:06:33.462-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:06:33.467-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:06:33.467-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:06:33.469-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:06:33.469-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:06:33.476-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 117.804 seconds
+[2025-06-13T15:07:55.926-0400] {processor.py:186} INFO - Started process (PID=16449) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:07:55.929-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:07:55.929-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:07:55.929-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:07:55.946-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:07:56.022-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:07:56.022-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:07:56.027-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:07:56.027-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:07:56.028-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:07:56.028-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:07:56.036-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 111.757 seconds
+[2025-06-13T15:09:15.964-0400] {processor.py:186} INFO - Started process (PID=16574) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:09:15.966-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:09:15.967-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:09:15.967-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:09:15.990-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:09:16.061-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:09:16.061-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:09:16.066-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:09:16.066-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:09:16.067-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:09:16.067-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:09:16.074-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 111.764 seconds
+[2025-06-13T15:10:38.420-0400] {processor.py:186} INFO - Started process (PID=16796) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:10:38.422-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:10:38.423-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:10:38.423-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:10:38.439-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:10:38.511-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:10:38.511-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:10:38.516-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:10:38.516-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:10:38.517-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:10:38.517-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:10:38.524-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 105.298 seconds
+[2025-06-13T15:12:05.899-0400] {processor.py:186} INFO - Started process (PID=16909) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:12:05.901-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:12:05.901-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:12:05.901-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:12:05.920-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:12:05.991-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:12:05.990-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:12:05.996-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:12:05.996-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:12:05.997-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:12:05.997-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:12:06.004-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 106.350 seconds
+[2025-06-13T15:13:31.039-0400] {processor.py:186} INFO - Started process (PID=17119) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:13:31.041-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:13:31.041-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:13:31.041-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:13:31.059-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:13:31.140-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:13:31.139-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:13:31.144-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:13:31.144-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:13:31.146-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:13:31.145-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:13:31.155-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 117.589 seconds
+[2025-06-13T15:18:51.452-0400] {processor.py:186} INFO - Started process (PID=17769) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:18:51.454-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:18:51.455-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:18:51.454-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:18:51.478-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:18:51.640-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:18:51.639-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:18:51.645-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:18:51.645-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:18:51.646-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:18:51.646-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:18:51.654-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 203.825 seconds
+[2025-06-13T15:24:57.134-0400] {processor.py:186} INFO - Started process (PID=18869) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:24:57.136-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:24:57.137-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.137-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:24:57.156-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:24:57.265-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.265-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2025-06-13T15:24:57.272-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.272-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2025-06-13T15:24:57.276-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.276-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2025-06-13T15:24:57.280-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.280-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:24:57.282-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.282-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:24:57.285-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.284-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:24:57.287-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.287-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:24:57.293-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.293-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2025-06-13T15:24:57.295-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.295-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2025-06-13T15:24:57.298-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.297-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2025-06-13T15:24:57.301-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.301-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2025-06-13T15:24:57.304-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.303-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2025-06-13T15:24:57.306-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.306-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2025-06-13T15:24:57.308-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.308-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2025-06-13T15:24:57.308-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.308-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:24:57.313-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.313-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2025-06-13T15:24:57.313-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.313-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2025-06-13T15:24:57.313-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.313-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:24:57.313-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:24:57.313-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:24:57.322-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 189.675 seconds
+[2025-06-13T15:27:50.921-0400] {processor.py:186} INFO - Started process (PID=19403) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:27:50.923-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:27:50.924-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:50.924-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:27:50.949-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:27:51.077-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.077-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2025-06-13T15:27:51.082-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.082-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2025-06-13T15:27:51.085-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.085-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2025-06-13T15:27:51.088-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.088-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:27:51.091-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.090-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:27:51.092-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.092-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:27:51.094-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.094-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:27:51.099-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.099-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2025-06-13T15:27:51.101-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.101-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2025-06-13T15:27:51.102-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.102-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2025-06-13T15:27:51.105-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.105-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2025-06-13T15:27:51.107-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.107-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2025-06-13T15:27:51.109-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.109-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2025-06-13T15:27:51.111-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.111-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2025-06-13T15:27:51.111-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.111-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:27:51.117-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.116-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2025-06-13T15:27:51.117-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.117-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2025-06-13T15:27:51.117-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.117-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:27:51.117-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:27:51.117-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:27:51.126-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 206.469 seconds
+[2025-06-13T15:30:21.413-0400] {processor.py:186} INFO - Started process (PID=19811) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:30:21.415-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:30:21.415-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.415-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:30:21.443-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:30:21.559-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.559-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2025-06-13T15:30:21.562-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.562-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2025-06-13T15:30:21.565-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.565-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2025-06-13T15:30:21.568-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.567-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:30:21.570-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.569-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:30:21.572-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.571-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:30:21.574-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.573-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:30:21.578-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.578-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2025-06-13T15:30:21.581-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.581-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2025-06-13T15:30:21.586-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.586-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2025-06-13T15:30:21.590-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.590-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2025-06-13T15:30:21.592-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.592-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2025-06-13T15:30:21.594-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.594-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2025-06-13T15:30:21.596-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.596-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2025-06-13T15:30:21.596-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.596-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:30:21.601-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.600-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2025-06-13T15:30:21.601-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.601-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2025-06-13T15:30:21.601-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.601-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:30:21.601-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:21.601-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:30:21.609-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 197.326 seconds
+[2025-06-13T15:32:22.012-0400] {processor.py:186} INFO - Started process (PID=20019) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:32:22.014-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:32:22.015-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:32:22.015-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:32:22.031-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:32:22.106-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:32:22.106-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:32:22.111-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:32:22.111-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:32:22.113-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:32:22.113-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:32:22.119-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 108.575 seconds
+[2025-06-13T15:35:53.911-0400] {processor.py:186} INFO - Started process (PID=20425) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:35:53.914-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:35:53.915-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:53.914-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:35:53.933-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:35:54.057-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.057-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2025-06-13T15:35:54.062-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.061-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2025-06-13T15:35:54.065-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.065-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2025-06-13T15:35:54.069-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.069-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2025-06-13T15:35:54.071-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.071-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2025-06-13T15:35:54.074-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.074-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2025-06-13T15:35:54.076-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.076-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2025-06-13T15:35:54.084-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.084-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2025-06-13T15:35:54.087-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.086-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2025-06-13T15:35:54.089-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.089-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2025-06-13T15:35:54.093-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.092-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:35:54.095-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.095-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:35:54.098-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.098-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:35:54.102-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.101-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:35:54.102-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.102-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:35:54.107-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.107-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2025-06-13T15:35:54.107-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.107-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2025-06-13T15:35:54.107-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.107-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:35:54.107-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:35:54.107-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:35:54.116-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 205.910 seconds
+[2025-06-13T15:37:55.521-0400] {processor.py:186} INFO - Started process (PID=20701) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:37:55.523-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:37:55.524-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:55.524-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:37:55.546-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:37:55.629-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:55.629-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:37:55.634-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:55.634-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:37:55.635-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:37:55.635-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:37:55.642-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 122.791 seconds
+[2025-06-13T15:39:20.482-0400] {processor.py:186} INFO - Started process (PID=20842) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:39:20.484-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:39:20.485-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:39:20.485-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:39:20.502-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:39:20.577-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:39:20.576-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:39:20.583-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:39:20.583-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:39:20.584-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:39:20.584-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:39:20.593-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 112.344 seconds
+[2025-06-13T15:40:44.861-0400] {processor.py:186} INFO - Started process (PID=20956) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:40:44.863-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:40:44.864-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:40:44.863-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:40:44.880-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:40:44.951-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:40:44.950-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:40:44.958-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:40:44.957-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:40:44.959-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:40:44.959-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:40:44.967-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 107.278 seconds
+[2025-06-13T15:42:14.131-0400] {processor.py:186} INFO - Started process (PID=21139) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:42:14.133-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:42:14.133-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:42:14.133-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:42:14.155-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:42:14.229-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:42:14.229-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:42:14.234-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:42:14.234-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:42:14.236-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:42:14.236-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:42:14.243-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 113.663 seconds
+[2025-06-13T15:43:26.142-0400] {processor.py:186} INFO - Started process (PID=21514) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:43:26.144-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:43:26.145-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.145-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:43:26.167-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:43:26.284-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.283-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2025-06-13T15:43:26.288-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.287-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2025-06-13T15:43:26.290-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.290-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2025-06-13T15:43:26.294-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.294-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:43:26.296-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.296-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:43:26.299-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.299-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:43:26.303-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.303-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2025-06-13T15:43:26.309-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.308-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2025-06-13T15:43:26.311-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.311-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2025-06-13T15:43:26.314-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.314-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2025-06-13T15:43:26.318-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.318-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2025-06-13T15:43:26.320-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.320-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2025-06-13T15:43:26.324-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.324-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2025-06-13T15:43:26.327-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.327-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2025-06-13T15:43:26.327-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.327-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:43:26.332-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.332-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2025-06-13T15:43:26.332-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.332-0400] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2025-06-13T15:43:26.332-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.332-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:43:26.332-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:26.332-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:43:26.343-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 202.864 seconds
+[2025-06-13T15:45:30.366-0400] {processor.py:186} INFO - Started process (PID=21871) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:45:30.368-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:45:30.369-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:45:30.368-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:45:30.389-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:45:30.461-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:45:30.461-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:45:30.467-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:45:30.467-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:45:30.468-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:45:30.468-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:45:30.475-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 110.535 seconds
+[2025-06-13T15:46:59.355-0400] {processor.py:186} INFO - Started process (PID=22036) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:46:59.357-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:46:59.357-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:46:59.357-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:46:59.374-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:46:59.448-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:46:59.448-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:46:59.454-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:46:59.453-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:46:59.455-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:46:59.455-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:46:59.461-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 107.958 seconds
+[2025-06-13T15:48:26.014-0400] {processor.py:186} INFO - Started process (PID=22163) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:48:26.016-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:48:26.017-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:48:26.017-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:48:26.037-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:48:26.115-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:48:26.115-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:48:26.120-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:48:26.120-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:48:26.122-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:48:26.122-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:48:26.129-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 115.903 seconds
+[2025-06-13T15:49:52.470-0400] {processor.py:186} INFO - Started process (PID=22308) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:49:52.472-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:49:52.472-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:49:52.472-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:49:52.491-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:49:52.564-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:49:52.564-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:49:52.570-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:49:52.569-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:49:52.571-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:49:52.571-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:49:52.577-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 108.689 seconds
+[2025-06-13T15:51:10.968-0400] {processor.py:186} INFO - Started process (PID=22534) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:51:10.970-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:51:10.971-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:51:10.971-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:51:10.989-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:51:11.060-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:51:11.060-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:51:11.064-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:51:11.064-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:51:11.066-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:51:11.066-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:51:11.072-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 105.497 seconds
+[2025-06-13T15:52:25.000-0400] {processor.py:186} INFO - Started process (PID=22648) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:52:25.001-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:52:25.002-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:52:25.002-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:52:25.017-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:52:25.082-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:52:25.082-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:52:25.087-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:52:25.087-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:52:25.088-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:52:25.088-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:52:25.095-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 96.479 seconds
+[2025-06-13T15:53:38.950-0400] {processor.py:186} INFO - Started process (PID=22749) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:53:38.952-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:53:38.952-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:38.952-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:53:38.967-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:53:39.030-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:39.030-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:53:39.035-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:39.034-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:53:39.036-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:39.036-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:53:39.042-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 93.181 seconds
+[2025-06-13T15:54:54.702-0400] {processor.py:186} INFO - Started process (PID=22894) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:54:54.704-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:54:54.705-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:54:54.705-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:54:54.719-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:54:54.782-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:54:54.782-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:54:54.787-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:54:54.786-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:54:54.788-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:54:54.788-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:54:54.793-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 92.680 seconds
+[2025-06-13T15:56:05.966-0400] {processor.py:186} INFO - Started process (PID=22988) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:56:05.967-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:56:05.968-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:56:05.968-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:56:05.984-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:56:06.048-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:56:06.048-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:56:06.053-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:56:06.053-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:56:06.054-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:56:06.054-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:56:06.060-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 95.170 seconds
+[2025-06-13T15:57:18.136-0400] {processor.py:186} INFO - Started process (PID=23105) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:57:18.138-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:57:18.138-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:18.138-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:57:18.154-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:57:18.218-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:18.218-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:57:18.223-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:18.223-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:57:18.224-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:18.224-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:57:18.230-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 95.161 seconds
+[2025-06-13T15:58:29.211-0400] {processor.py:186} INFO - Started process (PID=23234) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:58:29.213-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:58:29.213-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:58:29.213-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:58:29.228-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:58:29.292-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:58:29.292-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:58:29.296-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:58:29.296-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:58:29.298-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:58:29.297-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:58:29.304-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 94.464 seconds
+[2025-06-13T15:59:40.571-0400] {processor.py:186} INFO - Started process (PID=23445) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:59:40.573-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T15:59:40.574-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:59:40.574-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:59:40.589-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T15:59:40.652-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:59:40.652-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T15:59:40.657-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:59:40.656-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T15:59:40.658-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:59:40.658-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T15:59:40.664-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 93.663 seconds
+[2025-06-13T16:00:57.564-0400] {processor.py:186} INFO - Started process (PID=23641) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:00:57.566-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T16:00:57.567-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:00:57.567-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:00:57.581-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:00:57.645-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:00:57.645-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T16:00:57.649-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:00:57.649-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T16:00:57.650-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:00:57.650-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T16:00:57.656-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 93.593 seconds
+[2025-06-13T16:02:11.744-0400] {processor.py:186} INFO - Started process (PID=23855) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:02:11.746-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T16:02:11.746-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:11.746-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:02:11.765-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:02:11.840-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:11.840-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T16:02:11.845-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:11.845-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T16:02:11.847-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:11.847-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T16:02:11.853-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 110.750 seconds
+[2025-06-13T16:03:34.602-0400] {processor.py:186} INFO - Started process (PID=24060) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:03:34.604-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T16:03:34.604-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:03:34.604-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:03:34.621-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T16:03:34.692-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:03:34.691-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T16:03:34.697-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:03:34.697-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T16:03:34.699-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:03:34.699-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T16:03:34.706-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 105.989 seconds
+[2025-06-13T19:06:28.696-0400] {processor.py:186} INFO - Started process (PID=24298) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T19:06:28.698-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-06-13T19:06:28.699-0400] {logging_mixin.py:190} INFO - [2025-06-13T19:06:28.699-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T19:06:28.718-0400] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-06-13T19:06:28.798-0400] {logging_mixin.py:190} INFO - [2025-06-13T19:06:28.798-0400] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-06-13T19:06:28.804-0400] {logging_mixin.py:190} INFO - [2025-06-13T19:06:28.804-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-06-13T19:06:28.806-0400] {logging_mixin.py:190} INFO - [2025-06-13T19:06:28.806-0400] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-06-13T19:06:28.815-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 120.113 seconds

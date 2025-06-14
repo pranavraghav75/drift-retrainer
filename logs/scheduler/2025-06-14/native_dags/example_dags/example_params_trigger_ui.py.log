@@ -1,0 +1,42 @@
+[2025-06-13T20:27:58.038-0400] {processor.py:186} INFO - Started process (PID=24494) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T20:27:58.040-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-13T20:27:58.040-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:27:58.040-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T20:27:58.074-0400] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T20:27:58.169-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:27:58.169-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T20:27:58.175-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:27:58.175-0400] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-13T20:27:58.185-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 149.072 seconds
+[2025-06-13T21:27:27.819-0400] {processor.py:186} INFO - Started process (PID=26505) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:27:27.821-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-13T21:27:27.822-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:27.822-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:27:27.843-0400] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:27:27.934-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:27.933-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:27:27.939-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:27.939-0400] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-13T21:27:27.950-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 132.799 seconds
+[2025-06-13T21:29:31.497-0400] {processor.py:186} INFO - Started process (PID=26810) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:29:31.499-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-13T21:29:31.500-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:31.500-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:29:31.521-0400] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:29:31.609-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:31.609-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:29:31.613-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:31.613-0400] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-13T21:29:31.622-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 127.032 seconds
+[2025-06-13T21:32:52.668-0400] {processor.py:186} INFO - Started process (PID=27222) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:32:52.670-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-13T21:32:52.671-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:52.671-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:32:52.692-0400] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:32:52.815-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:52.815-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:32:52.820-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:52.820-0400] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-13T21:32:52.829-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 163.133 seconds
+[2025-06-13T21:40:22.837-0400] {processor.py:186} INFO - Started process (PID=28411) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:40:22.841-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-13T21:40:22.842-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:22.842-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:40:22.871-0400] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:40:22.960-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:22.960-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:40:22.965-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:22.965-0400] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-13T21:40:22.973-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 138.673 seconds
+[2025-06-13T21:42:25.334-0400] {processor.py:186} INFO - Started process (PID=28962) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:42:25.336-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-06-13T21:42:25.337-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:25.337-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:42:25.357-0400] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-06-13T21:42:25.458-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:25.457-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:42:25.462-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:25.462-0400] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-06-13T21:42:25.475-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 142.693 seconds

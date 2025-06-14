@@ -1,0 +1,70 @@
+[2025-06-13T21:26:01.682-0400] {processor.py:186} INFO - Started process (PID=26345) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:26:01.684-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:26:01.686-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:26:01.686-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:26:01.696-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:26:01.784-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:26:01.783-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:26:01.791-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:26:01.791-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:26:01.805-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 124.891 seconds
+[2025-06-13T21:28:44.844-0400] {processor.py:186} INFO - Started process (PID=26673) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:28:44.846-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:28:44.847-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:28:44.846-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:28:44.851-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:28:44.945-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:28:44.945-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:28:44.953-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:28:44.953-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:28:44.963-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 120.807 seconds
+[2025-06-13T21:30:18.622-0400] {processor.py:186} INFO - Started process (PID=26901) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:30:18.624-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:30:18.625-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:18.625-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:30:18.629-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:30:18.714-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:18.714-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:30:18.723-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:18.723-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:30:18.733-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 112.078 seconds
+[2025-06-13T21:31:57.428-0400] {processor.py:186} INFO - Started process (PID=27096) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:31:57.430-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:31:57.431-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:31:57.431-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:31:57.436-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:31:57.544-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:31:57.543-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:31:57.552-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:31:57.552-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:31:57.563-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 137.218 seconds
+[2025-06-13T21:33:41.875-0400] {processor.py:186} INFO - Started process (PID=27272) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:33:41.878-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:33:41.879-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:41.879-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:33:41.888-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:33:42.018-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:42.017-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:33:42.029-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:42.029-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:33:42.044-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 171.813 seconds
+[2025-06-13T21:35:32.239-0400] {processor.py:186} INFO - Started process (PID=27424) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:35:32.242-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:35:32.242-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:32.242-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:35:32.247-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:35:32.342-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:32.341-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:35:32.350-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:32.349-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:35:32.360-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 121.534 seconds
+[2025-06-13T21:38:17.634-0400] {processor.py:186} INFO - Started process (PID=28038) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:38:17.637-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:38:17.638-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:38:17.637-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:38:17.642-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:38:17.723-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:38:17.723-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:38:17.731-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:38:17.731-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:38:17.739-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 105.554 seconds
+[2025-06-13T21:39:38.274-0400] {processor.py:186} INFO - Started process (PID=28259) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:39:38.277-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:39:38.277-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:39:38.277-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:39:38.281-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:39:38.372-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:39:38.372-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:39:38.379-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:39:38.379-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:39:38.388-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 115.006 seconds
+[2025-06-13T21:41:37.589-0400] {processor.py:186} INFO - Started process (PID=28770) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:41:37.591-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:41:37.591-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:41:37.591-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:41:37.597-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:41:37.681-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:41:37.681-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:41:37.690-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:41:37.689-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:41:37.699-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 111.834 seconds
+[2025-06-13T21:43:09.668-0400] {processor.py:186} INFO - Started process (PID=29113) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:43:09.671-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-06-13T21:43:09.671-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:43:09.671-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:43:09.677-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-06-13T21:43:09.791-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:43:09.791-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:43:09.800-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:43:09.799-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:43:09.808-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 144.265 seconds

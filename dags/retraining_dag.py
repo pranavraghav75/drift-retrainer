@@ -2,9 +2,6 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.sensors.filesystem import FileSensor
 from airflow.operators.bash import BashOperator
-import os
-
-path = "Users/pranavr/drift-retrainer"
 
 default_args = {
     "owner": "airflow",
@@ -17,7 +14,7 @@ with DAG(
     dag_id="retrain_pipeline",
     default_args=default_args,
     description="Watch for drift flag and retrain model",
-    schedule_interval="@hourly",            # same cadence as drift detection
+    schedule="@hourly",            # same cadence as drift detection dag
     start_date=datetime(2025, 6, 10),
     catchup=False,
 ) as dag:
@@ -35,7 +32,7 @@ with DAG(
     retrain = BashOperator(
         task_id="run_retrain_pipeline",
         bash_command="python src/retrain_pipeline.py",
-        cwd=path,       # use pwd to find path
+        cwd="/Users/pranavr/drift-retrainer",       # use pwd to find path
     )
 
     wait_for_flag >> retrain

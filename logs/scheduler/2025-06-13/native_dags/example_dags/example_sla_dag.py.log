@@ -247,3 +247,274 @@
 [2025-06-13T15:00:56.682-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:00:56.681-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-06-13T15:00:56.691-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:00:56.691-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T18:58:00+00:00, run_after=2025-06-13T19:00:00+00:00
 [2025-06-13T15:00:56.699-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 132.142 seconds
+[2025-06-13T15:02:59.588-0400] {processor.py:186} INFO - Started process (PID=15608) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:02:59.591-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:02:59.591-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:59.591-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:02:59.616-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:02:59.694-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:59.694-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:02:59.703-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:02:59.703-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:00:00+00:00, run_after=2025-06-13T19:02:00+00:00
+[2025-06-13T15:02:59.713-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 125.913 seconds
+[2025-06-13T15:04:58.789-0400] {processor.py:186} INFO - Started process (PID=16014) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:04:58.792-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:04:58.793-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:04:58.792-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:04:58.822-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:04:58.907-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:04:58.907-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:04:58.916-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:04:58.916-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:02:00+00:00, run_after=2025-06-13T19:04:00+00:00
+[2025-06-13T15:04:58.924-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 136.020 seconds
+[2025-06-13T15:06:50.880-0400] {processor.py:186} INFO - Started process (PID=16352) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:06:50.882-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:06:50.882-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:06:50.882-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:06:50.913-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:06:51.007-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:06:51.006-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:06:51.016-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:06:51.015-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:04:00+00:00, run_after=2025-06-13T19:06:00+00:00
+[2025-06-13T15:06:51.025-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 146.121 seconds
+[2025-06-13T15:08:12.237-0400] {processor.py:186} INFO - Started process (PID=16472) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:08:12.238-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:08:12.239-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:08:12.239-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:08:12.256-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:08:12.325-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:08:12.325-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:08:12.333-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:08:12.333-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:06:00+00:00, run_after=2025-06-13T19:08:00+00:00
+[2025-06-13T15:08:12.341-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 106.130 seconds
+[2025-06-13T15:09:33.938-0400] {processor.py:186} INFO - Started process (PID=16593) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:09:33.941-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:09:33.942-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:09:33.942-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:09:33.966-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:09:34.038-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:09:34.037-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:09:34.047-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:09:34.047-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:06:00+00:00, run_after=2025-06-13T19:08:00+00:00
+[2025-06-13T15:09:34.054-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 117.785 seconds
+[2025-06-13T15:10:57.029-0400] {processor.py:186} INFO - Started process (PID=16815) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:10:57.031-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:10:57.032-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:10:57.032-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:10:57.057-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:10:57.139-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:10:57.139-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:10:57.148-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:10:57.148-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:08:00+00:00, run_after=2025-06-13T19:10:00+00:00
+[2025-06-13T15:10:57.157-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 130.139 seconds
+[2025-06-13T15:12:22.056-0400] {processor.py:186} INFO - Started process (PID=16931) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:12:22.058-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:12:22.059-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:12:22.059-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:12:22.076-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:12:22.147-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:12:22.147-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:12:22.155-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:12:22.155-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:10:00+00:00, run_after=2025-06-13T19:12:00+00:00
+[2025-06-13T15:12:22.164-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 109.158 seconds
+[2025-06-13T15:13:49.175-0400] {processor.py:186} INFO - Started process (PID=17160) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:13:49.177-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:13:49.178-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:13:49.178-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:13:49.200-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:13:49.275-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:13:49.275-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:13:49.283-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:13:49.283-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:10:00+00:00, run_after=2025-06-13T19:12:00+00:00
+[2025-06-13T15:13:49.291-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 116.948 seconds
+[2025-06-13T15:19:09.420-0400] {processor.py:186} INFO - Started process (PID=17795) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:19:09.422-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:19:09.423-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:19:09.423-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:19:09.445-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:19:09.515-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:19:09.514-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:19:09.523-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:19:09.523-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:16:00+00:00, run_after=2025-06-13T19:18:00+00:00
+[2025-06-13T15:19:09.530-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 111.660 seconds
+[2025-06-13T15:25:21.180-0400] {processor.py:186} INFO - Started process (PID=18918) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:25:21.183-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:25:21.183-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.183-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:25:21.208-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:25:21.464-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.464-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-06-13T15:25:21.468-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.468-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-06-13T15:25:21.470-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.470-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-06-13T15:25:21.474-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.474-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2025-06-13T15:25:21.476-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.476-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2025-06-13T15:25:21.478-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.478-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2025-06-13T15:25:21.481-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.481-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2025-06-13T15:25:21.481-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.481-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:25:21.485-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.485-0400] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2025-06-13T15:25:21.491-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:25:21.490-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:22:00+00:00, run_after=2025-06-13T19:24:00+00:00
+[2025-06-13T15:25:21.499-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 319.700 seconds
+[2025-06-13T15:28:11.063-0400] {processor.py:186} INFO - Started process (PID=19441) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:28:11.065-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:28:11.066-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.066-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:28:11.090-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:28:11.196-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.196-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-06-13T15:28:11.200-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.200-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-06-13T15:28:11.202-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.202-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-06-13T15:28:11.205-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.205-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2025-06-13T15:28:11.207-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.207-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2025-06-13T15:28:11.209-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.209-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2025-06-13T15:28:11.212-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.212-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2025-06-13T15:28:11.212-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.212-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:28:11.216-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.216-0400] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2025-06-13T15:28:11.221-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:28:11.221-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:26:00+00:00, run_after=2025-06-13T19:28:00+00:00
+[2025-06-13T15:28:11.228-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 166.745 seconds
+[2025-06-13T15:30:40.963-0400] {processor.py:186} INFO - Started process (PID=19887) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:30:40.966-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:30:40.966-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:40.966-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:30:41.002-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:30:41.143-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.143-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-06-13T15:30:41.146-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.146-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-06-13T15:30:41.148-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.148-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-06-13T15:30:41.152-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.152-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2025-06-13T15:30:41.155-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.155-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2025-06-13T15:30:41.157-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.157-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2025-06-13T15:30:41.160-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.160-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2025-06-13T15:30:41.160-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.160-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:30:41.165-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.165-0400] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2025-06-13T15:30:41.170-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:30:41.170-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:28:00+00:00, run_after=2025-06-13T19:30:00+00:00
+[2025-06-13T15:30:41.178-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 217.580 seconds
+[2025-06-13T15:32:40.847-0400] {processor.py:186} INFO - Started process (PID=20042) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:32:40.850-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:32:40.850-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:32:40.850-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:32:40.875-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:32:40.958-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:32:40.958-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:32:40.968-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:32:40.968-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:30:00+00:00, run_after=2025-06-13T19:32:00+00:00
+[2025-06-13T15:32:40.976-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 129.776 seconds
+[2025-06-13T15:36:14.547-0400] {processor.py:186} INFO - Started process (PID=20485) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:36:14.550-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:36:14.551-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.551-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:36:14.575-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:36:14.679-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.679-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-06-13T15:36:14.682-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.682-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-06-13T15:36:14.684-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.684-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-06-13T15:36:14.687-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.687-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2025-06-13T15:36:14.689-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.689-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2025-06-13T15:36:14.691-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.691-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2025-06-13T15:36:14.693-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.693-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2025-06-13T15:36:14.694-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.693-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:36:14.698-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.698-0400] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2025-06-13T15:36:14.703-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:36:14.702-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:34:00+00:00, run_after=2025-06-13T19:36:00+00:00
+[2025-06-13T15:36:14.708-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 163.665 seconds
+[2025-06-13T15:38:14.187-0400] {processor.py:186} INFO - Started process (PID=20745) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:38:14.189-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:38:14.189-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:38:14.189-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:38:14.211-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:38:14.281-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:38:14.281-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:38:14.291-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:38:14.291-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:36:00+00:00, run_after=2025-06-13T19:38:00+00:00
+[2025-06-13T15:38:14.299-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 113.588 seconds
+[2025-06-13T15:39:37.771-0400] {processor.py:186} INFO - Started process (PID=20868) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:39:37.773-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:39:37.774-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:39:37.774-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:39:37.803-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:39:37.878-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:39:37.877-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:39:37.887-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:39:37.887-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:36:00+00:00, run_after=2025-06-13T19:38:00+00:00
+[2025-06-13T15:39:37.895-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 125.807 seconds
+[2025-06-13T15:41:03.212-0400] {processor.py:186} INFO - Started process (PID=20975) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:41:03.215-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:41:03.215-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:41:03.215-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:41:03.236-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:41:03.304-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:41:03.304-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:41:03.313-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:41:03.313-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:38:00+00:00, run_after=2025-06-13T19:40:00+00:00
+[2025-06-13T15:41:03.320-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 108.708 seconds
+[2025-06-13T15:43:46.504-0400] {processor.py:186} INFO - Started process (PID=21543) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:43:46.506-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:43:46.506-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.506-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:43:46.531-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:43:46.651-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.650-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-06-13T15:43:46.654-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.654-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-06-13T15:43:46.657-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.656-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-06-13T15:43:46.660-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.660-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2025-06-13T15:43:46.663-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.663-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2025-06-13T15:43:46.666-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.665-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2025-06-13T15:43:46.668-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.668-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2025-06-13T15:43:46.668-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.668-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:43:46.673-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.673-0400] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2025-06-13T15:43:46.678-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:43:46.677-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:40:00+00:00, run_after=2025-06-13T19:42:00+00:00
+[2025-06-13T15:43:46.684-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 181.651 seconds
+[2025-06-13T15:45:49.957-0400] {processor.py:186} INFO - Started process (PID=21916) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:45:49.960-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:45:49.960-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:45:49.960-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:45:49.982-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:45:50.051-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:45:50.051-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:45:50.061-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:45:50.061-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:42:00+00:00, run_after=2025-06-13T19:44:00+00:00
+[2025-06-13T15:45:50.073-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 116.703 seconds
+[2025-06-13T15:47:18.495-0400] {processor.py:186} INFO - Started process (PID=22063) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:47:18.498-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:47:18.499-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:47:18.499-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:47:18.523-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:47:18.603-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:47:18.603-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:47:18.613-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:47:18.613-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:44:00+00:00, run_after=2025-06-13T19:46:00+00:00
+[2025-06-13T15:47:18.622-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 128.061 seconds
+[2025-06-13T15:48:43.317-0400] {processor.py:186} INFO - Started process (PID=22186) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:48:43.320-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:48:43.321-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:48:43.321-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:48:43.349-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:48:43.421-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:48:43.421-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:48:43.430-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:48:43.429-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:46:00+00:00, run_after=2025-06-13T19:48:00+00:00
+[2025-06-13T15:48:43.437-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 120.675 seconds
+[2025-06-13T15:50:10.694-0400] {processor.py:186} INFO - Started process (PID=22348) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:50:10.696-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:50:10.697-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:50:10.696-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:50:10.719-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:50:10.787-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:50:10.787-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:50:10.796-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:50:10.796-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:48:00+00:00, run_after=2025-06-13T19:50:00+00:00
+[2025-06-13T15:50:10.803-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 110.581 seconds
+[2025-06-13T15:51:26.779-0400] {processor.py:186} INFO - Started process (PID=22557) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:51:26.782-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:51:26.782-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:51:26.782-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:51:26.797-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:51:26.859-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:51:26.859-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:51:26.867-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:51:26.867-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:48:00+00:00, run_after=2025-06-13T19:50:00+00:00
+[2025-06-13T15:51:26.874-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 96.301 seconds
+[2025-06-13T15:52:42.271-0400] {processor.py:186} INFO - Started process (PID=22670) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:52:42.273-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:52:42.273-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:52:42.273-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:52:42.287-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:52:42.347-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:52:42.347-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:52:42.355-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:52:42.355-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:50:00+00:00, run_after=2025-06-13T19:52:00+00:00
+[2025-06-13T15:52:42.362-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 91.800 seconds
+[2025-06-13T15:53:55.824-0400] {processor.py:186} INFO - Started process (PID=22794) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:53:55.826-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:53:55.826-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:55.826-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:53:55.842-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:53:55.909-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:55.909-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:53:55.917-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:53:55.917-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:50:00+00:00, run_after=2025-06-13T19:52:00+00:00
+[2025-06-13T15:53:55.924-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 100.800 seconds
+[2025-06-13T15:55:09.594-0400] {processor.py:186} INFO - Started process (PID=22914) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:55:09.596-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:55:09.596-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:55:09.596-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:55:09.611-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:55:09.671-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:55:09.671-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:55:09.680-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:55:09.680-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:52:00+00:00, run_after=2025-06-13T19:54:00+00:00
+[2025-06-13T15:55:09.686-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 93.312 seconds
+[2025-06-13T15:56:22.112-0400] {processor.py:186} INFO - Started process (PID=23013) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:56:22.114-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:56:22.114-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:56:22.114-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:56:22.130-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:56:22.191-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:56:22.191-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:56:22.200-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:56:22.200-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:54:00+00:00, run_after=2025-06-13T19:56:00+00:00
+[2025-06-13T15:56:22.206-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 95.529 seconds
+[2025-06-13T15:57:34.248-0400] {processor.py:186} INFO - Started process (PID=23132) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:57:34.250-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:57:34.251-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:34.251-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:57:34.266-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:57:34.330-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:34.330-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:57:34.339-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:57:34.339-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:54:00+00:00, run_after=2025-06-13T19:56:00+00:00
+[2025-06-13T15:57:34.345-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 98.066 seconds
+[2025-06-13T15:58:46.174-0400] {processor.py:186} INFO - Started process (PID=23316) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:58:46.176-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:58:46.176-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:58:46.176-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:58:46.192-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:58:46.254-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:58:46.254-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:58:46.262-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:58:46.262-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:56:00+00:00, run_after=2025-06-13T19:58:00+00:00
+[2025-06-13T15:58:46.268-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 95.734 seconds
+[2025-06-13T15:59:57.537-0400] {processor.py:186} INFO - Started process (PID=23486) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:59:57.539-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T15:59:57.540-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:59:57.540-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:59:57.554-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T15:59:57.616-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:59:57.616-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T15:59:57.623-0400] {logging_mixin.py:190} INFO - [2025-06-13T15:59:57.623-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:56:00+00:00, run_after=2025-06-13T19:58:00+00:00
+[2025-06-13T15:59:57.630-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 93.579 seconds
+[2025-06-13T16:01:14.264-0400] {processor.py:186} INFO - Started process (PID=23681) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:01:14.266-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T16:01:14.266-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:01:14.266-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:01:14.280-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:01:14.341-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:01:14.341-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T16:01:14.348-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:01:14.348-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T19:58:00+00:00, run_after=2025-06-13T20:00:00+00:00
+[2025-06-13T16:01:14.355-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 92.097 seconds
+[2025-06-13T16:02:29.367-0400] {processor.py:186} INFO - Started process (PID=23885) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:02:29.369-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T16:02:29.369-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:29.369-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:02:29.390-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:02:29.464-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:29.464-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T16:02:29.473-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:02:29.473-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T20:00:00+00:00, run_after=2025-06-13T20:02:00+00:00
+[2025-06-13T16:02:29.481-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 115.138 seconds
+[2025-06-13T16:03:52.964-0400] {processor.py:186} INFO - Started process (PID=24095) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:03:52.967-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-13T16:03:52.968-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:03:52.968-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:03:52.985-0400] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-13T16:03:53.058-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:03:53.058-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T16:03:53.067-0400] {logging_mixin.py:190} INFO - [2025-06-13T16:03:53.067-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-06-13T20:00:00+00:00, run_after=2025-06-13T20:02:00+00:00
+[2025-06-13T16:03:53.075-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 112.276 seconds

@@ -1,0 +1,70 @@
+[2025-06-13T21:25:53.844-0400] {processor.py:186} INFO - Started process (PID=26331) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:25:53.846-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:25:53.847-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:25:53.847-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:25:53.875-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:25:53.997-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:25:53.996-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:25:54.003-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:25:54.003-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:25:54.013-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 170.455 seconds
+[2025-06-13T21:28:38.784-0400] {processor.py:186} INFO - Started process (PID=26660) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:28:38.787-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:28:38.789-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:28:38.789-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:28:38.808-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:28:38.891-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:28:38.891-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:28:38.896-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:28:38.896-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:28:38.904-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 121.011 seconds
+[2025-06-13T21:30:12.325-0400] {processor.py:186} INFO - Started process (PID=26885) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:30:12.327-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:30:12.328-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:12.328-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:30:12.347-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:30:12.436-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:12.436-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:30:12.443-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:12.443-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:30:12.457-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 134.042 seconds
+[2025-06-13T21:31:50.193-0400] {processor.py:186} INFO - Started process (PID=27082) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:31:50.195-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:31:50.195-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:31:50.195-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:31:50.226-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:31:50.326-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:31:50.326-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:31:50.332-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:31:50.332-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:31:50.343-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 151.617 seconds
+[2025-06-13T21:33:34.083-0400] {processor.py:186} INFO - Started process (PID=27264) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:33:34.085-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:33:34.086-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:34.085-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:33:34.107-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:33:34.229-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:34.229-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:33:34.235-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:34.234-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:33:34.244-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 162.710 seconds
+[2025-06-13T21:35:25.937-0400] {processor.py:186} INFO - Started process (PID=27413) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:35:25.939-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:35:25.939-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:25.939-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:35:25.959-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:35:26.037-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:26.037-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:35:26.046-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:26.046-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:35:26.055-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 119.736 seconds
+[2025-06-13T21:38:11.662-0400] {processor.py:186} INFO - Started process (PID=28025) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:38:11.664-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:38:11.665-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:38:11.665-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:38:11.688-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:38:11.782-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:38:11.782-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:38:11.788-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:38:11.788-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:38:11.883-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 222.893 seconds
+[2025-06-13T21:39:31.966-0400] {processor.py:186} INFO - Started process (PID=28236) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:39:31.968-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:39:31.968-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:39:31.968-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:39:31.995-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:39:32.084-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:39:32.084-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:39:32.090-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:39:32.090-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:39:32.098-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 134.486 seconds
+[2025-06-13T21:41:31.526-0400] {processor.py:186} INFO - Started process (PID=28759) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:41:31.529-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:41:31.531-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:41:31.530-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:41:31.551-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:41:31.633-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:41:31.633-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:41:31.638-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:41:31.638-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:41:31.647-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 122.095 seconds
+[2025-06-13T21:43:03.422-0400] {processor.py:186} INFO - Started process (PID=29103) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:43:03.424-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-06-13T21:43:03.425-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:43:03.425-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:43:03.443-0400] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-06-13T21:43:03.550-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:43:03.546-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:43:03.558-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:43:03.558-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-06-13T21:43:03.567-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 146.138 seconds

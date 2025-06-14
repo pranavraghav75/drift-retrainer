@@ -1,0 +1,42 @@
+[2025-06-13T20:28:08.280-0400] {processor.py:186} INFO - Started process (PID=24535) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T20:28:08.282-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-13T20:28:08.283-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:28:08.283-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T20:28:08.286-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T20:28:08.369-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:28:08.369-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T20:28:08.377-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:28:08.376-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-13T20:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T20:28:08.385-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 106.287 seconds
+[2025-06-13T21:27:36.858-0400] {processor.py:186} INFO - Started process (PID=26533) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:27:36.860-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-13T21:27:36.861-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:36.861-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:27:36.865-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:27:36.938-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:36.938-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:27:36.946-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:36.946-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-13T20:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:27:36.953-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 96.405 seconds
+[2025-06-13T21:29:41.767-0400] {processor.py:186} INFO - Started process (PID=26827) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:29:41.769-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-13T21:29:41.770-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:41.770-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:29:41.774-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:29:41.875-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:41.875-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:29:41.885-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:41.885-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-13T20:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:29:41.897-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 131.449 seconds
+[2025-06-13T21:33:03.882-0400] {processor.py:186} INFO - Started process (PID=27232) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:33:03.884-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-13T21:33:03.884-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:03.884-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:33:03.888-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:33:03.971-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:03.971-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:33:03.980-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:33:03.979-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-13T20:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:33:03.988-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 108.047 seconds
+[2025-06-13T21:40:32.953-0400] {processor.py:186} INFO - Started process (PID=28467) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:40:32.955-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-13T21:40:32.956-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:32.956-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:40:32.960-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:40:33.050-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:33.050-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:40:33.059-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:33.058-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-13T20:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:40:33.069-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 116.633 seconds
+[2025-06-13T21:42:35.371-0400] {processor.py:186} INFO - Started process (PID=29027) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:42:35.373-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-06-13T21:42:35.373-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:35.373-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:42:35.377-0400] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-06-13T21:42:35.462-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:35.462-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:42:35.469-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:35.469-0400] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-06-13T20:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:42:35.477-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 107.747 seconds

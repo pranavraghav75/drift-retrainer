@@ -1,0 +1,63 @@
+[2025-06-13T20:07:38.826-0400] {processor.py:186} INFO - Started process (PID=24367) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T20:07:38.828-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T20:07:38.829-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:07:38.829-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T20:07:38.832-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T20:07:38.911-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:07:38.911-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T20:07:38.919-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:07:38.919-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T20:07:38.928-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 103.308 seconds
+[2025-06-13T21:26:25.265-0400] {processor.py:186} INFO - Started process (PID=26377) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:26:25.267-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T21:26:25.268-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:26:25.268-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:26:25.272-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:26:25.357-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:26:25.357-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:26:25.365-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:26:25.365-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:26:25.372-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 109.039 seconds
+[2025-06-13T21:29:09.243-0400] {processor.py:186} INFO - Started process (PID=26780) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:29:09.246-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T21:29:09.247-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:09.246-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:29:09.251-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:29:09.352-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:09.350-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:29:09.360-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:09.360-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:29:09.370-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 128.531 seconds
+[2025-06-13T21:30:42.809-0400] {processor.py:186} INFO - Started process (PID=26943) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:30:42.811-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T21:30:42.812-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:42.812-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:30:42.817-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:30:42.900-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:42.899-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:30:42.908-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:42.907-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:30:42.916-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 108.356 seconds
+[2025-06-13T21:32:20.044-0400] {processor.py:186} INFO - Started process (PID=27162) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:32:20.046-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T21:32:20.047-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:20.047-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:32:20.056-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:32:20.139-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:20.139-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:32:20.147-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:20.147-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:32:20.162-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 119.084 seconds
+[2025-06-13T21:34:13.554-0400] {processor.py:186} INFO - Started process (PID=27326) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:34:13.557-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T21:34:13.558-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:34:13.558-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:34:13.563-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:34:13.652-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:34:13.651-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:34:13.660-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:34:13.659-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:34:13.672-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 119.044 seconds
+[2025-06-13T21:35:54.602-0400] {processor.py:186} INFO - Started process (PID=27570) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:35:54.604-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T21:35:54.604-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:54.604-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:35:54.612-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:35:54.707-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:54.707-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:35:54.714-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:35:54.714-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:35:54.721-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 121.105 seconds
+[2025-06-13T21:40:00.571-0400] {processor.py:186} INFO - Started process (PID=28322) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:40:00.573-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T21:40:00.574-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:00.574-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:40:00.578-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:40:00.663-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:00.663-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:40:00.674-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:00.674-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:40:00.683-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 112.553 seconds
+[2025-06-13T21:42:01.890-0400] {processor.py:186} INFO - Started process (PID=28820) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:42:01.892-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-13T21:42:01.893-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:01.893-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:42:01.897-0400] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-13T21:42:01.996-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:01.995-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:42:02.004-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:02.003-0400] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-06-13T00:00:00+00:00, run_after=2025-06-14T00:00:00+00:00
+[2025-06-13T21:42:02.019-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 130.564 seconds

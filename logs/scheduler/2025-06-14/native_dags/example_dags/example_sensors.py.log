@@ -1,0 +1,56 @@
+[2025-06-13T20:07:49.443-0400] {processor.py:186} INFO - Started process (PID=24405) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T20:07:49.445-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-13T20:07:49.446-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:07:49.446-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T20:07:49.456-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T20:07:50.079-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:07:50.079-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T20:07:50.084-0400] {logging_mixin.py:190} INFO - [2025-06-13T20:07:50.084-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-13T20:07:50.140-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 697.781 seconds
+[2025-06-13T21:27:14.709-0400] {processor.py:186} INFO - Started process (PID=26449) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:27:14.712-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-13T21:27:14.712-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:14.712-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:27:14.724-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:27:15.214-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:15.213-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:27:15.218-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:27:15.218-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-13T21:27:15.269-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 561.163 seconds
+[2025-06-13T21:29:19.346-0400] {processor.py:186} INFO - Started process (PID=26796) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:29:19.348-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-13T21:29:19.349-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:19.349-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:29:19.359-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:29:19.909-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:19.909-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:29:19.914-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:29:19.913-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-13T21:29:19.969-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 624.618 seconds
+[2025-06-13T21:30:53.251-0400] {processor.py:186} INFO - Started process (PID=26968) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:30:53.254-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-13T21:30:53.255-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:53.255-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:30:53.267-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:30:53.689-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:53.689-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:30:53.694-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:30:53.694-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-13T21:30:53.747-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 498.333 seconds
+[2025-06-13T21:32:34.837-0400] {processor.py:186} INFO - Started process (PID=27202) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:32:34.841-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-13T21:32:34.843-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:34.843-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:32:34.855-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:32:35.366-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:35.365-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:32:35.372-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:32:35.372-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-13T21:32:35.451-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 614.993 seconds
+[2025-06-13T21:34:24.141-0400] {processor.py:186} INFO - Started process (PID=27340) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:34:24.146-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-13T21:34:24.147-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:34:24.147-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:34:24.159-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:34:24.611-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:34:24.611-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:34:24.617-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:34:24.617-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-13T21:34:24.693-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 554.121 seconds
+[2025-06-13T21:40:10.087-0400] {processor.py:186} INFO - Started process (PID=28338) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:40:10.090-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-13T21:40:10.091-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:10.091-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:40:10.099-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:40:10.447-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:10.446-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:40:10.451-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:40:10.451-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-13T21:40:10.510-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 425.560 seconds
+[2025-06-13T21:42:12.072-0400] {processor.py:186} INFO - Started process (PID=28834) to work on /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:42:12.074-0400] {processor.py:914} INFO - Processing file /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-13T21:42:12.075-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:12.075-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:42:12.085-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-13T21:42:12.478-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:12.478-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-13T21:42:12.483-0400] {logging_mixin.py:190} INFO - [2025-06-13T21:42:12.482-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-13T21:42:12.540-0400] {processor.py:208} INFO - Processing /Users/pranavr/.pyenv/versions/3.11.6/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 469.540 seconds
