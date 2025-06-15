@@ -1,0 +1,43 @@
+[2025-06-14T21:49:14.347-0400] {processor.py:186} INFO - Started process (PID=61598) to work on /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:49:14.349-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py for tasks to queue
+[2025-06-14T21:49:14.350-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.349-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:49:14.356-0400] {processor.py:925} INFO - DAG(s) 'drift_detection' retrieved from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:49:14.474-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.474-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:drift_detection
+[2025-06-14T21:49:14.478-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.478-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:drift_detection
+[2025-06-14T21:49:14.481-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.481-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:drift_detection
+[2025-06-14T21:49:14.484-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.484-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:drift_detection
+[2025-06-14T21:49:14.487-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.487-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:drift_detection
+[2025-06-14T21:49:14.492-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.492-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:drift_detection
+[2025-06-14T21:49:14.497-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.497-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:drift_detection
+[2025-06-14T21:49:14.497-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.497-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:49:14.502-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.502-0400] {dag.py:3262} INFO - Creating ORM DAG for drift_detection
+[2025-06-14T21:49:14.506-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:14.506-0400] {dag.py:4180} INFO - Setting next_dagrun for drift_detection to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:49:14.512-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py took 165.895 seconds
+[2025-06-14T21:49:46.083-0400] {processor.py:186} INFO - Started process (PID=61613) to work on /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:49:46.085-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py for tasks to queue
+[2025-06-14T21:49:46.085-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:46.085-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:49:46.091-0400] {processor.py:925} INFO - DAG(s) 'drift_detection' retrieved from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:49:46.157-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:46.157-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:49:46.165-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:49:46.165-0400] {dag.py:4180} INFO - Setting next_dagrun for drift_detection to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:49:46.172-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py took 90.752 seconds
+[2025-06-14T21:50:17.397-0400] {processor.py:186} INFO - Started process (PID=61665) to work on /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:50:17.399-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py for tasks to queue
+[2025-06-14T21:50:17.399-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:50:17.399-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:50:17.406-0400] {processor.py:925} INFO - DAG(s) 'drift_detection' retrieved from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:50:17.480-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:50:17.480-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:50:17.488-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:50:17.488-0400] {dag.py:4180} INFO - Setting next_dagrun for drift_detection to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:50:17.496-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py took 100.766 seconds
+[2025-06-14T21:50:48.606-0400] {processor.py:186} INFO - Started process (PID=61734) to work on /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:50:48.608-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py for tasks to queue
+[2025-06-14T21:50:48.608-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:50:48.608-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:50:48.614-0400] {processor.py:925} INFO - DAG(s) 'drift_detection' retrieved from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:50:48.691-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:50:48.691-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:50:48.699-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:50:48.698-0400] {dag.py:4180} INFO - Setting next_dagrun for drift_detection to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:50:48.706-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py took 101.750 seconds
+[2025-06-14T21:51:20.738-0400] {processor.py:186} INFO - Started process (PID=61817) to work on /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:51:20.740-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py for tasks to queue
+[2025-06-14T21:51:20.741-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:51:20.741-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:51:20.748-0400] {processor.py:925} INFO - DAG(s) 'drift_detection' retrieved from /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py
+[2025-06-14T21:51:20.825-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:51:20.825-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:51:20.833-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:51:20.833-0400] {dag.py:4180} INFO - Setting next_dagrun for drift_detection to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:51:20.841-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py took 104.177 seconds
