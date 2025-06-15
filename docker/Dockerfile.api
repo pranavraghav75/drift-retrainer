@@ -10,6 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 3) copy your model code & API code in
 COPY src/ src/
 COPY inference/ inference/
+COPY models/trained/ models/trained/
 
 # 4) expose the port you’re going to serve on
 EXPOSE 8000
