@@ -3,6 +3,8 @@ import subprocess
 import pandas as pd
 import streamlit as st
 import requests
+import mlflow
+from mlflow.tracking import MlflowClient
 
 if "data_source" not in st.session_state:
     st.session_state.data_source = None 
@@ -12,6 +14,19 @@ if "raw_path" not in st.session_state:
 
 if "processed_path" not in st.session_state:
     st.session_state.processed_path = None
+
+TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://host.docker.internal:5000")
+mlflow.set_tracking_uri(TRACKING_URI)
+
+client = MlflowClient()
+try:
+    versions = client.get_latest_versions("ChurnModel")
+    if not versions:
+        raise Exception("no versions")
+    model_available = True
+except Exception as e:
+    model_available = False
+    st.warning("🚧 No trained model found.  Please Train your model first.")
 
 ##### Page header #####
 st.set_page_config(page_title="ML Drift & Retrain Playground", layout="wide")
@@ -78,9 +93,9 @@ if st.session_state.processed_path:
                 capture_output=True,
                 text=True
             )
-            st.success("✅ Training complete! Check MLflow for details.")
+            st.success("Training complete! Check MLflow for details.")
         except subprocess.CalledProcessError as e:
-            st.error("❌ Training failed. See error below:")
+            st.error("Training failed. See error below:")
             st.code(e.stderr or e.stdout or str(e), language="bash")
 else:
     st.info("Upload or generate data above to enable training.")
@@ -109,3 +124,46 @@ if st.session_state.data_source == "upload":
 
 elif st.session_state.data_source == "generate":
     st.info("Synthetic data generated → skip live prediction. Train your model above.")
+
+##### Drift Detection & Auto-Retrain #####
+if model_available and st.session_state.processed_path:
+    st.markdown("---")
+    st.header("Drift Detection & Auto-Retrain")
+
+    if st.button("Check Data Drift"):
+        st.info("Running drift check…")
+
+        cmd = [
+            "python", "src/drift_check.py",
+            "data/processed/train.csv",
+            st.session_state.processed_path,
+            "trigger_retrain.flag"
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        drift_line = [l for l in result.stdout.splitlines() if l.startswith("DRIFT=")][0]
+        drift = drift_line.split("=")[1] == "True"
+        if drift:
+            st.error("Data drift detected!")
+        else:
+            st.success("No significant drift.")
+
+        with open("data_drift_report.html", "r") as f:
+            html = f.read()
+        st.components.v1.html(html, height=400, scrolling=True)
+
+    # retraining
+    if os.path.exists("trigger_retrain.flag"):
+        if st.button("Retrain Model"):
+            st.info("Retraining…")
+            sub = subprocess.run(
+                ["python", "src/retrain_pipeline.py"], 
+                capture_output=True, text=True
+            )
+            if sub.returncode == 0:
+                st.success("Retrain complete! New model in MLflow.")
+                os.remove("trigger_retrain.flag")
+            else:
+                st.error("Retrain failed:")
+                st.code(sub.stderr or sub.stdout, language="bash")
+elif not model_available:
+    st.info("You need to train a model before you can check drift or retrain.")
