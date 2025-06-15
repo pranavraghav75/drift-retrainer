@@ -32,13 +32,14 @@ with tab1:
         st.session_state.raw_path = raw_path
 
         st.write("Cleaning uploaded data…")
-        os.makedirs("data/processed", exist_ok=True)
-        cleaned_path = "data/processed/cleaned.csv"
+        cleaned_path = "data/processed/train.csv"
         subprocess.run(
             ["python", "src/clean.py", raw_path, cleaned_path],
             check=True,
         )
         st.session_state.processed_path = cleaned_path
+
+        st.success("Data cleaned, below is a preview of what your data looks like!")
 
         df = pd.read_csv(cleaned_path)
         st.dataframe(df.head(), use_container_width=True)
@@ -54,7 +55,7 @@ with tab2:
                 ["python", "data/processed/data_generation.py"],
                 check=True
             )
-            st.success("Synthetic data generated!")
+            st.success("Synthetic data generated, below is a preview of what your generated data looks like!")
             gen_path = "data/processed/latest_inference.csv"
             st.session_state.data_source = "generate"
             st.session_state.processed_path = gen_path
@@ -70,11 +71,17 @@ if st.session_state.processed_path:
     st.write(f"Using data: `{train_input}`")
     if st.button("Train Model"):
         st.write("Training… this may take a minute.")
-        subprocess.run(
-            ["python", "src/train.py", "--in", train_input, "--out", "models/trained/model"],
-            check=True,
-        )
-        st.success("✅ Training complete! Check MLflow for details.")
+        try:
+            result = subprocess.run(
+                ["python", "src/train.py"],
+                check=True,
+                capture_output=True,
+                text=True
+            )
+            st.success("✅ Training complete! Check MLflow for details.")
+        except subprocess.CalledProcessError as e:
+            st.error("❌ Training failed. See error below:")
+            st.code(e.stderr or e.stdout or str(e), language="bash")
 else:
     st.info("Upload or generate data above to enable training.")
 

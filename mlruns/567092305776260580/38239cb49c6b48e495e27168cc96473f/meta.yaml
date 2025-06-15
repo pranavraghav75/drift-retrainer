@@ -1,0 +1,14 @@
+artifact_uri: /mlruns/567092305776260580/38239cb49c6b48e495e27168cc96473f/artifacts
+end_time: 1750029642956
+entry_point_name: ''
+experiment_id: '567092305776260580'
+lifecycle_stage: active
+run_id: 38239cb49c6b48e495e27168cc96473f
+run_name: classy-yak-207
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750029637186
+status: 3
+tags: []
+user_id: root
