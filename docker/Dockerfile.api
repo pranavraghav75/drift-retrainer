@@ -1,0 +1,18 @@
+# 1. Base image
+FROM python:3.10-slim
+
+# 2. Set workdir
+WORKDIR /app
+
+# 3. Copy requirements and install
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 4. Copy your source
+COPY src src
+COPY inference/app.py inference_api/app.py
+COPY models/trained/ models/trained/
+
+# 5. Expose port and run
+EXPOSE 5000
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "inference_api.app:app"]

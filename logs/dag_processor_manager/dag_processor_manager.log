@@ -39,3 +39,629 @@ File Path                                                   PID    Runtime      
 /Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.15s           2025-06-15T01:50:48                      12
 /Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.00s           2025-06-15T01:50:19                      12
 ================================================================================
+[2025-06-14T21:51:21.027-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.23s           2025-06-15T01:51:21                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.91s           2025-06-15T01:50:50                      12
+================================================================================
+[2025-06-14T21:51:52.061-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.86s           2025-06-15T01:51:22                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.84s           2025-06-15T01:51:52                      12
+================================================================================
+[2025-06-14T21:52:23.510-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.27s           2025-06-15T01:52:23                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.79s           2025-06-15T01:51:53                      12
+================================================================================
+[2025-06-14T21:52:54.716-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.06s           2025-06-15T01:52:54                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.89s           2025-06-15T01:52:24                      12
+================================================================================
+[2025-06-14T21:53:25.658-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.80s           2025-06-15T01:52:55                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.80s           2025-06-15T01:53:25                      12
+================================================================================
+[2025-06-14T21:53:56.607-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.80s           2025-06-15T01:53:26                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.79s           2025-06-15T01:53:56                      12
+================================================================================
+[2025-06-14T21:54:14.625-0400] {manager.py:821} INFO - Searching for files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T21:54:14.628-0400] {manager.py:824} INFO - There are 2 files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T21:54:27.597-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.82s           2025-06-15T01:54:27                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.78s           2025-06-15T01:53:57                      12
+================================================================================
+[2025-06-14T21:54:58.529-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.93s           2025-06-15T01:54:29                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.80s           2025-06-15T01:54:58                      12
+================================================================================
+[2025-06-14T21:55:29.531-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.91s           2025-06-15T01:55:29                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.81s           2025-06-15T01:55:00                      12
+================================================================================
+[2025-06-14T21:56:00.437-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.91s           2025-06-15T01:55:31                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.81s           2025-06-15T01:56:00                      12
+================================================================================
+[2025-06-14T21:56:31.399-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.87s           2025-06-15T01:56:31                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.79s           2025-06-15T01:56:02                      12
+================================================================================
+[2025-06-14T21:57:02.287-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.80s           2025-06-15T01:56:33                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.79s           2025-06-15T01:57:02                      12
+================================================================================
+[2025-06-14T21:57:33.171-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.79s           2025-06-15T01:57:03                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.78s           2025-06-15T01:57:33                      12
+================================================================================
+[2025-06-14T21:58:04.047-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.79s           2025-06-15T01:57:34                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.78s           2025-06-15T01:58:04                      12
+================================================================================
+[2025-06-14T21:58:35.136-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.99s           2025-06-15T01:58:35                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.78s           2025-06-15T01:58:05                      12
+================================================================================
+[2025-06-14T21:59:06.190-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.95s           2025-06-15T01:59:06                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.81s           2025-06-15T01:58:36                      12
+================================================================================
+[2025-06-14T21:59:15.397-0400] {manager.py:821} INFO - Searching for files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T21:59:15.400-0400] {manager.py:824} INFO - There are 2 files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T21:59:37.144-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.87s           2025-06-15T01:59:07                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.86s           2025-06-15T01:59:37                      12
+================================================================================
+[2025-06-14T22:00:08.432-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.20s           2025-06-15T02:00:08                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.88s           2025-06-15T01:59:38                      12
+================================================================================
+[2025-06-14T22:00:39.624-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.13s           2025-06-15T02:00:39                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.84s           2025-06-15T02:00:10                      12
+================================================================================
+[2025-06-14T22:01:10.671-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.99s           2025-06-15T02:01:10                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.88s           2025-06-15T02:00:41                      12
+================================================================================
+[2025-06-14T22:01:41.617-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.88s           2025-06-15T02:01:41                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.88s           2025-06-15T02:01:12                      12
+================================================================================
+[2025-06-14T22:02:12.514-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.85s           2025-06-15T02:01:43                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.84s           2025-06-15T02:02:12                      12
+================================================================================
+[2025-06-14T22:02:43.573-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.99s           2025-06-15T02:02:43                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.83s           2025-06-15T02:02:15                      12
+================================================================================
+[2025-06-14T22:03:14.458-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.81s           2025-06-15T02:03:14                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.81s           2025-06-15T02:02:46                      12
+================================================================================
+[2025-06-14T22:03:45.334-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.81s           2025-06-15T02:03:17                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.81s           2025-06-15T02:03:45                      12
+================================================================================
+[2025-06-14T22:04:15.402-0400] {manager.py:821} INFO - Searching for files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:04:15.404-0400] {manager.py:824} INFO - There are 2 files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:04:16.225-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.85s           2025-06-15T02:03:48                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.81s           2025-06-15T02:04:16                      12
+================================================================================
+[2025-06-14T22:04:47.110-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.83s           2025-06-15T02:04:19                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.82s           2025-06-15T02:04:47                      12
+================================================================================
+[2025-06-14T22:05:18.005-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.82s           2025-06-15T02:04:50                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.82s           2025-06-15T02:05:18                      12
+================================================================================
+[2025-06-14T22:05:48.900-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.86s           2025-06-15T02:05:20                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.82s           2025-06-15T02:05:48                      12
+================================================================================
+[2025-06-14T22:06:20.294-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.33s           2025-06-15T02:06:20                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.87s           2025-06-15T02:05:51                      12
+================================================================================
+[2025-06-14T22:06:51.407-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.06s           2025-06-15T02:06:23                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.05s           2025-06-15T02:06:51                      12
+================================================================================
+[2025-06-14T22:07:22.344-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.89s           2025-06-15T02:07:22                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.86s           2025-06-15T02:06:54                      12
+================================================================================
+[2025-06-14T22:07:53.233-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.90s           2025-06-15T02:07:25                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.83s           2025-06-15T02:07:53                      12
+================================================================================
+[2025-06-14T22:08:24.171-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.88s           2025-06-15T02:08:24                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.81s           2025-06-15T02:07:57                      12
+================================================================================
+[2025-06-14T22:08:55.057-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.96s           2025-06-15T02:08:28                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.82s           2025-06-15T02:08:55                      12
+================================================================================
+[2025-06-14T22:09:16.173-0400] {manager.py:821} INFO - Searching for files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:09:16.175-0400] {manager.py:824} INFO - There are 2 files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:09:25.977-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.90s           2025-06-15T02:09:00                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.85s           2025-06-15T02:09:25                      12
+================================================================================
+[2025-06-14T22:09:57.093-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.06s           2025-06-15T02:09:57                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.88s           2025-06-15T02:09:30                      12
+================================================================================
+[2025-06-14T22:10:28.175-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.01s           2025-06-15T02:10:28                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.82s           2025-06-15T02:10:02                      12
+================================================================================
+[2025-06-14T22:10:59.060-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.81s           2025-06-15T02:10:59                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.81s           2025-06-15T02:10:33                      12
+================================================================================
+[2025-06-14T22:11:29.944-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.83s           2025-06-15T02:11:04                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.82s           2025-06-15T02:11:29                      12
+================================================================================
+[2025-06-14T22:12:00.825-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.82s           2025-06-15T02:11:34                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.81s           2025-06-15T02:12:00                      12
+================================================================================
+[2025-06-14T22:12:31.886-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.00s           2025-06-15T02:12:31                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.83s           2025-06-15T02:12:05                      12
+================================================================================
+[2025-06-14T22:13:02.794-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.85s           2025-06-15T02:13:02                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.82s           2025-06-15T02:12:36                      12
+================================================================================
+[2025-06-14T22:13:33.924-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.06s           2025-06-15T02:13:33                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.82s           2025-06-15T02:13:07                      12
+================================================================================
+[2025-06-14T22:14:04.863-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.87s           2025-06-15T02:14:04                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.86s           2025-06-15T02:13:38                      12
+================================================================================
+[2025-06-14T22:14:17.038-0400] {manager.py:821} INFO - Searching for files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:14:17.042-0400] {manager.py:824} INFO - There are 2 files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:14:35.988-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.08s           2025-06-15T02:14:35                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.99s           2025-06-15T02:14:09                      12
+================================================================================
+[2025-06-14T22:15:07.039-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.98s           2025-06-15T02:15:07                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.86s           2025-06-15T02:14:40                      12
+================================================================================
+[2025-06-14T22:15:38.095-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.00s           2025-06-15T02:15:38                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.99s           2025-06-15T02:15:12                      12
+================================================================================
+[2025-06-14T22:16:09.010-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.88s           2025-06-15T02:15:43                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.86s           2025-06-15T02:16:09                      12
+================================================================================
+[2025-06-14T22:16:40.199-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.14s           2025-06-15T02:16:40                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.92s           2025-06-15T02:16:14                      12
+================================================================================
+[2025-06-14T22:17:11.228-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.97s           2025-06-15T02:17:11                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.87s           2025-06-15T02:16:45                      12
+================================================================================
+[2025-06-14T22:17:42.457-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.16s           2025-06-15T02:17:42                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.00s           2025-06-15T02:17:17                      12
+================================================================================
+[2025-06-14T22:18:13.470-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.95s           2025-06-15T02:18:13                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.94s           2025-06-15T02:17:48                      12
+================================================================================
+[2025-06-14T22:18:44.662-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.14s           2025-06-15T02:18:44                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.87s           2025-06-15T02:18:19                      12
+================================================================================
+[2025-06-14T22:19:15.524-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.94s           2025-06-15T02:18:50                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.80s           2025-06-15T02:19:15                      12
+================================================================================
+[2025-06-14T22:19:17.907-0400] {manager.py:821} INFO - Searching for files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:19:17.910-0400] {manager.py:824} INFO - There are 2 files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:19:46.654-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.06s           2025-06-15T02:19:46                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.80s           2025-06-15T02:19:21                      12
+================================================================================
+[2025-06-14T22:20:17.798-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.09s           2025-06-15T02:20:17                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.79s           2025-06-15T02:19:52                      12
+================================================================================
+[2025-06-14T22:20:48.836-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.14s           2025-06-15T02:20:23                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  0.98s           2025-06-15T02:20:48                      12
+================================================================================
+[2025-06-14T22:21:20.020-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.12s           2025-06-15T02:21:20                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.89s           2025-06-15T02:20:55                      12
+================================================================================
+[2025-06-14T22:21:51.368-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.28s           2025-06-15T02:21:51                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.87s           2025-06-15T02:21:26                      12
+================================================================================
+[2025-06-14T22:22:22.562-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.16s           2025-06-15T02:21:57                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.13s           2025-06-15T02:22:22                      12
+================================================================================
+[2025-06-14T22:22:53.692-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.10s           2025-06-15T02:22:28                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.06s           2025-06-15T02:22:53                      12
+================================================================================
+[2025-06-14T22:23:24.810-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.06s           2025-06-15T02:23:24                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.99s           2025-06-15T02:23:00                      12
+================================================================================
+[2025-06-14T22:23:56.041-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.18s           2025-06-15T02:23:56                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.87s           2025-06-15T02:23:31                      12
+================================================================================
+[2025-06-14T22:24:18.590-0400] {manager.py:821} INFO - Searching for files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:24:18.593-0400] {manager.py:824} INFO - There are 2 files in /Users/pranavr/drift-retrainer/dags
+[2025-06-14T22:24:27.208-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.18s           2025-06-15T02:24:02                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.12s           2025-06-15T02:24:27                      12
+================================================================================
+[2025-06-14T22:24:58.516-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.71s           2025-06-15T02:24:34                      12
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.25s           2025-06-15T02:24:58                      12
+================================================================================
+[2025-06-14T22:25:29.659-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.07s           2025-06-15T02:25:29                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  0.99s           2025-06-15T02:25:05                      12
+================================================================================
+[2025-06-14T22:26:01.068-0400] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/pranavr/drift-retrainer/dags/drift_detection_dag.py                           1           0  1.34s           2025-06-15T02:26:01                      12
+/Users/pranavr/drift-retrainer/dags/retraining_dag.py                                1           0  1.04s           2025-06-15T02:25:36                      12
+================================================================================

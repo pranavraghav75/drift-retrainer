@@ -41,3 +41,472 @@
 [2025-06-14T21:51:22.761-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:51:22.760-0400] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-06-14T21:51:22.768-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:51:22.768-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
 [2025-06-14T21:51:22.775-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 94.153 seconds
+[2025-06-14T21:51:53.673-0400] {processor.py:186} INFO - Started process (PID=61870) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:51:53.674-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:51:53.675-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:51:53.675-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:51:53.681-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:51:53.747-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:51:53.747-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:51:53.754-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:51:53.753-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:51:53.761-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 89.301 seconds
+[2025-06-14T21:52:24.590-0400] {processor.py:186} INFO - Started process (PID=61956) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:52:24.592-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:52:24.593-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:52:24.593-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:52:24.598-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:52:24.674-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:52:24.673-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:52:24.681-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:52:24.681-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:52:24.690-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 100.532 seconds
+[2025-06-14T21:52:55.508-0400] {processor.py:186} INFO - Started process (PID=62092) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:52:55.509-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:52:55.510-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:52:55.510-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:52:55.515-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:52:55.582-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:52:55.582-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:52:55.589-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:52:55.589-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:52:55.596-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 89.538 seconds
+[2025-06-14T21:53:26.374-0400] {processor.py:186} INFO - Started process (PID=62129) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:53:26.376-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:53:26.376-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:53:26.376-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:53:26.381-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:53:26.448-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:53:26.448-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:53:26.454-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:53:26.454-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:53:26.462-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 88.808 seconds
+[2025-06-14T21:53:57.252-0400] {processor.py:186} INFO - Started process (PID=62217) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:53:57.253-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:53:57.254-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:53:57.254-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:53:57.258-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:53:57.323-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:53:57.323-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:53:57.330-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:53:57.330-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:53:57.338-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 87.026 seconds
+[2025-06-14T21:54:29.340-0400] {processor.py:186} INFO - Started process (PID=62249) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:54:29.342-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:54:29.342-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:54:29.342-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:54:29.347-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:54:29.412-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:54:29.412-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:54:29.419-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:54:29.419-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:54:29.427-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 87.903 seconds
+[2025-06-14T21:55:00.145-0400] {processor.py:186} INFO - Started process (PID=62282) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:55:00.146-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:55:00.147-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:55:00.147-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:55:00.151-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:55:00.217-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:55:00.217-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:55:00.223-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:55:00.223-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:55:00.231-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 87.258 seconds
+[2025-06-14T21:55:31.078-0400] {processor.py:186} INFO - Started process (PID=62346) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:55:31.080-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:55:31.080-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:55:31.080-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:55:31.085-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:55:31.161-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:55:31.161-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:55:31.170-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:55:31.170-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:55:31.179-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 102.064 seconds
+[2025-06-14T21:56:01.977-0400] {processor.py:186} INFO - Started process (PID=62354) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:56:01.979-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:56:01.980-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:56:01.979-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:56:01.984-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:56:02.049-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:56:02.049-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:56:02.056-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:56:02.056-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:56:02.063-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 86.466 seconds
+[2025-06-14T21:56:32.838-0400] {processor.py:186} INFO - Started process (PID=62363) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:56:32.840-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:56:32.840-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:56:32.840-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:56:32.844-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:56:32.910-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:56:32.910-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:56:32.916-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:56:32.916-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:56:32.923-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 86.420 seconds
+[2025-06-14T21:57:03.703-0400] {processor.py:186} INFO - Started process (PID=62372) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:57:03.705-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:57:03.705-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:57:03.705-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:57:03.709-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:57:03.775-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:57:03.775-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:57:03.781-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:57:03.781-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:57:03.788-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 86.799 seconds
+[2025-06-14T21:57:34.547-0400] {processor.py:186} INFO - Started process (PID=62380) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:57:34.549-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:57:34.549-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:57:34.549-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:57:34.553-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:57:34.618-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:57:34.618-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:57:34.624-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:57:34.624-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:57:34.631-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 85.568 seconds
+[2025-06-14T21:58:05.389-0400] {processor.py:186} INFO - Started process (PID=62388) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:58:05.390-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:58:05.391-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:58:05.391-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:58:05.395-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:58:05.460-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:58:05.460-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:58:05.467-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:58:05.467-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:58:05.474-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 86.560 seconds
+[2025-06-14T21:58:36.238-0400] {processor.py:186} INFO - Started process (PID=62398) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:58:36.240-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:58:36.240-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:58:36.240-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:58:36.246-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:58:36.315-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:58:36.315-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:58:36.322-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:58:36.322-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:58:36.329-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 92.389 seconds
+[2025-06-14T21:59:07.164-0400] {processor.py:186} INFO - Started process (PID=62427) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:59:07.166-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:59:07.166-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:59:07.166-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:59:07.172-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:59:07.243-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:59:07.243-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:59:07.250-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:59:07.250-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:59:07.257-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 94.394 seconds
+[2025-06-14T21:59:38.056-0400] {processor.py:186} INFO - Started process (PID=62458) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:59:38.058-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T21:59:38.058-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:59:38.058-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:59:38.064-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T21:59:38.131-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:59:38.131-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T21:59:38.140-0400] {logging_mixin.py:190} INFO - [2025-06-14T21:59:38.139-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T00:00:00+00:00, run_after=2025-06-15T01:00:00+00:00
+[2025-06-14T21:59:38.149-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 94.425 seconds
+[2025-06-14T22:00:10.075-0400] {processor.py:186} INFO - Started process (PID=62592) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:00:10.078-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:00:10.078-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:00:10.078-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:00:10.083-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:00:10.152-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:00:10.152-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:00:10.159-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:00:10.159-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:00:10.166-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 92.493 seconds
+[2025-06-14T22:00:41.289-0400] {processor.py:186} INFO - Started process (PID=62601) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:00:41.291-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:00:41.291-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:00:41.291-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:00:41.297-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:00:41.364-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:00:41.364-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:00:41.371-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:00:41.371-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:00:41.378-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 90.112 seconds
+[2025-06-14T22:01:12.344-0400] {processor.py:186} INFO - Started process (PID=62609) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:01:12.347-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:01:12.347-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:01:12.347-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:01:12.352-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:01:12.425-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:01:12.425-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:01:12.432-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:01:12.432-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:01:12.440-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 97.234 seconds
+[2025-06-14T22:01:43.257-0400] {processor.py:186} INFO - Started process (PID=62617) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:01:43.259-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:01:43.259-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:01:43.259-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:01:43.263-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:01:43.332-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:01:43.332-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:01:43.339-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:01:43.339-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:01:43.348-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 91.925 seconds
+[2025-06-14T22:02:15.072-0400] {processor.py:186} INFO - Started process (PID=62625) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:02:15.074-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:02:15.074-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:02:15.074-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:02:15.078-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:02:15.147-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:02:15.146-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:02:15.153-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:02:15.153-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:02:15.160-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 89.528 seconds
+[2025-06-14T22:02:46.229-0400] {processor.py:186} INFO - Started process (PID=62635) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:02:46.231-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:02:46.231-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:02:46.231-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:02:46.237-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:02:46.302-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:02:46.302-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:02:46.309-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:02:46.308-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:02:46.316-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 87.614 seconds
+[2025-06-14T22:03:17.108-0400] {processor.py:186} INFO - Started process (PID=62643) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:03:17.110-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:03:17.111-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:03:17.110-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:03:17.115-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:03:17.181-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:03:17.181-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:03:17.188-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:03:17.187-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:03:17.195-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 87.738 seconds
+[2025-06-14T22:03:48.011-0400] {processor.py:186} INFO - Started process (PID=62651) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:03:48.012-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:03:48.013-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:03:48.013-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:03:48.017-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:03:48.086-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:03:48.086-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:03:48.093-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:03:48.093-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:03:48.101-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 91.310 seconds
+[2025-06-14T22:04:18.895-0400] {processor.py:186} INFO - Started process (PID=62662) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:04:18.897-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:04:18.897-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:04:18.897-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:04:18.901-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:04:18.970-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:04:18.970-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:04:18.976-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:04:18.976-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:04:18.984-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 90.235 seconds
+[2025-06-14T22:04:49.777-0400] {processor.py:186} INFO - Started process (PID=62690) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:04:49.778-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:04:49.779-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:04:49.779-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:04:49.783-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:04:49.849-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:04:49.849-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:04:49.856-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:04:49.856-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:04:49.863-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 87.276 seconds
+[2025-06-14T22:05:20.698-0400] {processor.py:186} INFO - Started process (PID=62697) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:05:20.700-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:05:20.700-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:05:20.700-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:05:20.705-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:05:20.775-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:05:20.775-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:05:20.782-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:05:20.782-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:05:20.789-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 92.676 seconds
+[2025-06-14T22:05:51.585-0400] {processor.py:186} INFO - Started process (PID=62706) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:05:51.587-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:05:51.587-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:05:51.587-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:05:51.591-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:05:51.666-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:05:51.666-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:05:51.673-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:05:51.673-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:05:51.681-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 97.465 seconds
+[2025-06-14T22:06:23.179-0400] {processor.py:186} INFO - Started process (PID=62729) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:06:23.181-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:06:23.181-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:06:23.181-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:06:23.186-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:06:23.260-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:06:23.260-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:06:23.267-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:06:23.267-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:06:23.275-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 96.714 seconds
+[2025-06-14T22:06:54.065-0400] {processor.py:186} INFO - Started process (PID=63342) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:06:54.067-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:06:54.067-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:06:54.067-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:06:54.073-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:06:54.151-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:06:54.151-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:06:54.163-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:06:54.163-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:06:54.171-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 107.781 seconds
+[2025-06-14T22:07:25.069-0400] {processor.py:186} INFO - Started process (PID=63424) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:07:25.071-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:07:25.072-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:07:25.072-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:07:25.077-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:07:25.148-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:07:25.148-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:07:25.155-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:07:25.155-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:07:25.162-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 94.106 seconds
+[2025-06-14T22:07:56.918-0400] {processor.py:186} INFO - Started process (PID=63443) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:07:56.919-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:07:56.920-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:07:56.920-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:07:56.925-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:07:56.991-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:07:56.990-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:07:56.997-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:07:56.997-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:07:57.005-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 88.198 seconds
+[2025-06-14T22:08:27.939-0400] {processor.py:186} INFO - Started process (PID=63459) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:08:27.941-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:08:27.942-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:08:27.942-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:08:27.949-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:08:28.025-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:08:28.024-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:08:28.033-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:08:28.032-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:08:28.041-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 102.837 seconds
+[2025-06-14T22:08:59.840-0400] {processor.py:186} INFO - Started process (PID=63574) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:08:59.843-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:08:59.844-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:08:59.844-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:08:59.850-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:08:59.923-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:08:59.923-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:08:59.929-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:08:59.929-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:08:59.937-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 98.118 seconds
+[2025-06-14T22:09:30.766-0400] {processor.py:186} INFO - Started process (PID=63602) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:09:30.767-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:09:30.768-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:09:30.768-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:09:30.773-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:09:30.841-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:09:30.841-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:09:30.848-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:09:30.847-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:09:30.854-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 90.250 seconds
+[2025-06-14T22:10:01.811-0400] {processor.py:186} INFO - Started process (PID=63613) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:10:01.813-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:10:01.814-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:10:01.814-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:10:01.819-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:10:01.888-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:10:01.888-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:10:01.895-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:10:01.895-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:10:01.902-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 92.514 seconds
+[2025-06-14T22:10:32.891-0400] {processor.py:186} INFO - Started process (PID=63622) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:10:32.893-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:10:32.894-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:10:32.894-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:10:32.899-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:10:32.968-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:10:32.968-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:10:32.976-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:10:32.975-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:10:32.983-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 92.988 seconds
+[2025-06-14T22:11:03.784-0400] {processor.py:186} INFO - Started process (PID=63631) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:11:03.786-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:11:03.786-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:11:03.786-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:11:03.791-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:11:03.860-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:11:03.860-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:11:03.868-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:11:03.868-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:11:03.876-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 93.492 seconds
+[2025-06-14T22:11:34.679-0400] {processor.py:186} INFO - Started process (PID=63639) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:11:34.681-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:11:34.681-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:11:34.681-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:11:34.686-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:11:34.753-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:11:34.753-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:11:34.761-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:11:34.761-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:11:34.769-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 91.313 seconds
+[2025-06-14T22:12:05.565-0400] {processor.py:186} INFO - Started process (PID=63647) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:12:05.566-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:12:05.567-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:12:05.567-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:12:05.571-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:12:05.638-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:12:05.638-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:12:05.645-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:12:05.645-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:12:05.653-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 89.984 seconds
+[2025-06-14T22:12:36.615-0400] {processor.py:186} INFO - Started process (PID=63658) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:12:36.616-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:12:36.617-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:12:36.617-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:12:36.622-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:12:36.687-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:12:36.687-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:12:36.694-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:12:36.693-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:12:36.701-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 87.182 seconds
+[2025-06-14T22:13:07.548-0400] {processor.py:186} INFO - Started process (PID=63666) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:13:07.550-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:13:07.550-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:13:07.550-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:13:07.555-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:13:07.620-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:13:07.620-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:13:07.626-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:13:07.626-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:13:07.634-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 86.955 seconds
+[2025-06-14T22:13:38.683-0400] {processor.py:186} INFO - Started process (PID=63675) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:13:38.686-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:13:38.686-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:13:38.686-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:13:38.692-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:13:38.763-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:13:38.763-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:13:38.771-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:13:38.771-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:13:38.779-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 97.323 seconds
+[2025-06-14T22:14:09.712-0400] {processor.py:186} INFO - Started process (PID=64203) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:14:09.714-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:14:09.715-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:14:09.714-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:14:09.719-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:14:09.789-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:14:09.789-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:14:09.797-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:14:09.797-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:14:09.805-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 94.874 seconds
+[2025-06-14T22:14:40.739-0400] {processor.py:186} INFO - Started process (PID=64820) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:14:40.740-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:14:40.741-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:14:40.741-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:14:40.746-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:14:40.815-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:14:40.814-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:14:40.821-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:14:40.821-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:14:40.829-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 91.402 seconds
+[2025-06-14T22:15:11.926-0400] {processor.py:186} INFO - Started process (PID=64862) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:15:11.928-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:15:11.928-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:15:11.928-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:15:11.934-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:15:12.004-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:15:12.004-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:15:12.011-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:15:12.011-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:15:12.019-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 94.497 seconds
+[2025-06-14T22:15:42.856-0400] {processor.py:186} INFO - Started process (PID=65181) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:15:42.858-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:15:42.859-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:15:42.859-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:15:42.864-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:15:42.937-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:15:42.937-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:15:42.944-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:15:42.944-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:15:42.953-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 99.650 seconds
+[2025-06-14T22:16:13.810-0400] {processor.py:186} INFO - Started process (PID=65247) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:16:13.812-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:16:13.812-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:16:13.812-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:16:13.819-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:16:13.890-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:16:13.890-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:16:13.898-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:16:13.898-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:16:13.906-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 96.930 seconds
+[2025-06-14T22:16:44.937-0400] {processor.py:186} INFO - Started process (PID=65295) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:16:44.940-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:16:44.940-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:16:44.940-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:16:44.945-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:16:45.016-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:16:45.016-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:16:45.023-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:16:45.023-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:16:45.031-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 95.187 seconds
+[2025-06-14T22:17:16.836-0400] {processor.py:186} INFO - Started process (PID=65333) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:17:16.838-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:17:16.838-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:17:16.838-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:17:16.845-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:17:16.922-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:17:16.922-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:17:16.930-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:17:16.929-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:17:16.939-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 104.719 seconds
+[2025-06-14T22:17:48.168-0400] {processor.py:186} INFO - Started process (PID=65519) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:17:48.170-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:17:48.171-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:17:48.171-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:17:48.178-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:17:48.254-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:17:48.254-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:17:48.262-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:17:48.262-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:17:48.270-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 102.934 seconds
+[2025-06-14T22:18:19.229-0400] {processor.py:186} INFO - Started process (PID=65724) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:18:19.231-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:18:19.232-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:18:19.231-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:18:19.238-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:18:19.312-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:18:19.312-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:18:19.319-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:18:19.319-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:18:19.327-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 99.510 seconds
+[2025-06-14T22:18:50.419-0400] {processor.py:186} INFO - Started process (PID=65771) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:18:50.421-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:18:50.422-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:18:50.421-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:18:50.428-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:18:50.497-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:18:50.496-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:18:50.503-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:18:50.503-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:18:50.510-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 92.543 seconds
+[2025-06-14T22:19:21.461-0400] {processor.py:186} INFO - Started process (PID=65811) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:19:21.462-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:19:21.463-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:19:21.463-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:19:21.467-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:19:21.532-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:19:21.532-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:19:21.538-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:19:21.538-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:19:21.545-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 86.014 seconds
+[2025-06-14T22:19:52.408-0400] {processor.py:186} INFO - Started process (PID=65853) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:19:52.410-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:19:52.411-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:19:52.411-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:19:52.417-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:19:52.486-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:19:52.486-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:19:52.493-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:19:52.493-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:19:52.499-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 92.485 seconds
+[2025-06-14T22:20:23.713-0400] {processor.py:186} INFO - Started process (PID=66000) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:20:23.716-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:20:23.717-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:20:23.717-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:20:23.724-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:20:23.799-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:20:23.799-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:20:23.806-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:20:23.806-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:20:23.813-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 101.566 seconds
+[2025-06-14T22:20:54.840-0400] {processor.py:186} INFO - Started process (PID=66060) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:20:54.841-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:20:54.842-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:20:54.842-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:20:54.848-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:20:54.918-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:20:54.918-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:20:54.925-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:20:54.925-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:20:54.933-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 95.050 seconds
+[2025-06-14T22:21:25.898-0400] {processor.py:186} INFO - Started process (PID=66104) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:21:25.900-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:21:25.900-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:21:25.900-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:21:25.906-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:21:25.979-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:21:25.979-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:21:25.986-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:21:25.986-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:21:25.993-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 96.288 seconds
+[2025-06-14T22:21:57.260-0400] {processor.py:186} INFO - Started process (PID=66264) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:21:57.263-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:21:57.263-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:21:57.263-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:21:57.270-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:21:57.346-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:21:57.346-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:21:57.353-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:21:57.353-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:21:57.360-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 100.999 seconds
+[2025-06-14T22:22:28.611-0400] {processor.py:186} INFO - Started process (PID=66442) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:22:28.613-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:22:28.614-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:22:28.614-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:22:28.620-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:22:28.694-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:22:28.694-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:22:28.701-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:22:28.701-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:22:28.709-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 98.777 seconds
+[2025-06-14T22:22:59.772-0400] {processor.py:186} INFO - Started process (PID=66489) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:22:59.775-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:22:59.775-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:22:59.775-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:22:59.781-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:22:59.866-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:22:59.866-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:22:59.879-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:22:59.879-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:22:59.889-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 117.783 seconds
+[2025-06-14T22:23:30.869-0400] {processor.py:186} INFO - Started process (PID=66634) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:23:30.871-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:23:30.872-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:23:30.871-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:23:30.877-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:23:30.949-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:23:30.948-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:23:30.956-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:23:30.956-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:23:30.963-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 95.997 seconds
+[2025-06-14T22:24:02.218-0400] {processor.py:186} INFO - Started process (PID=66727) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:24:02.220-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:24:02.221-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:24:02.221-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:24:02.228-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:24:02.302-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:24:02.302-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:24:02.309-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:24:02.309-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:24:02.316-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 99.570 seconds
+[2025-06-14T22:24:34.015-0400] {processor.py:186} INFO - Started process (PID=66803) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:24:34.017-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:24:34.018-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:24:34.018-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:24:34.027-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:24:34.117-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:24:34.117-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:24:34.125-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:24:34.125-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:24:34.134-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 120.647 seconds
+[2025-06-14T22:25:05.278-0400] {processor.py:186} INFO - Started process (PID=66907) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:25:05.280-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:25:05.281-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:25:05.281-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:25:05.288-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:25:05.364-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:25:05.364-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:25:05.373-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:25:05.372-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:25:05.381-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 104.224 seconds
+[2025-06-14T22:25:36.554-0400] {processor.py:186} INFO - Started process (PID=66954) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:25:36.556-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:25:36.556-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:25:36.556-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:25:36.562-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:25:36.631-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:25:36.631-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:25:36.638-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:25:36.637-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:25:36.644-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 91.913 seconds
+[2025-06-14T22:26:07.896-0400] {processor.py:186} INFO - Started process (PID=66997) to work on /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:26:07.898-0400] {processor.py:914} INFO - Processing file /Users/pranavr/drift-retrainer/dags/retraining_dag.py for tasks to queue
+[2025-06-14T22:26:07.899-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:26:07.899-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:26:07.906-0400] {processor.py:925} INFO - DAG(s) 'retrain_pipeline' retrieved from /Users/pranavr/drift-retrainer/dags/retraining_dag.py
+[2025-06-14T22:26:07.977-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:26:07.977-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-14T22:26:07.984-0400] {logging_mixin.py:190} INFO - [2025-06-14T22:26:07.984-0400] {dag.py:4180} INFO - Setting next_dagrun for retrain_pipeline to 2025-06-15T01:00:00+00:00, run_after=2025-06-15T02:00:00+00:00
+[2025-06-14T22:26:07.991-0400] {processor.py:208} INFO - Processing /Users/pranavr/drift-retrainer/dags/retraining_dag.py took 96.049 seconds
