@@ -18,15 +18,16 @@ if "processed_path" not in st.session_state:
 TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://host.docker.internal:5000")
 mlflow.set_tracking_uri(TRACKING_URI)
 
+# ─── Sanity check: do we have a registered ChurnModel? ───────────────────
 client = MlflowClient()
 try:
     versions = client.get_latest_versions("ChurnModel")
     if not versions:
-        raise Exception("no versions")
+        raise ValueError("no versions")
     model_available = True
-except Exception as e:
+except Exception:
     model_available = False
-    st.warning("🚧 No trained model found.  Please Train your model first.")
+    st.warning("🚧 No registered ChurnModel found—please Train your model first.")
 
 ##### Page header #####
 st.set_page_config(page_title="ML Drift & Retrain Playground", layout="wide")
@@ -82,7 +83,7 @@ with tab2:
 st.markdown("---")
 st.header("Train XGBoost Model")
 if st.session_state.processed_path:
-    train_input = st.session_state.processed_path
+    train_input = "data/processed/train.csv"
     st.write(f"Using data: `{train_input}`")
     if st.button("Train Model"):
         st.write("Training… this may take a minute.")
@@ -101,7 +102,7 @@ else:
     st.info("Upload or generate data above to enable training.")
 
 ##### Predict Section (only if user uploaded) #####
-if st.session_state.data_source == "upload":
+if model_available and st.session_state.data_source == "upload":
     st.markdown("---")
     st.header("Live Prediction")
     age = st.number_input("Age", 0, 120, 30)
