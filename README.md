@@ -18,23 +18,23 @@ An end-to-end MLOps pipeline that trains a customer churn model, monitors it for
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Streamlit UI (:8501)                  │
+│                    Streamlit UI (:8501)                 │
 │  Upload CSV / Generate Synthetic Data → Train → Drift   │
 └──────────────────────────┬──────────────────────────────┘
                            │
           ┌────────────────▼────────────────┐
-          │         Flask API (:8000)        │
-          │    POST /predict   GET /health   │
+          │         Flask API (:8000)       │
+          │    POST /predict   GET /health  │
           └────────────────┬────────────────┘
                            │
           ┌────────────────▼────────────────┐
-          │       MLflow Tracking (:5000)    │
-          │  Experiments · Registry · Runs   │
-          │  Backend: mlflow.db (SQLite)     │
-          │  Artifacts: ./mlruns/            │
+          │       MLflow Tracking (:5000)   │
+          │  Experiments · Registry · Runs  │
+          │  Backend: mlflow.db (SQLite)    │
+          │  Artifacts: ./mlruns/           │
           └────────────────┬────────────────┘
                            │
-     ┌─────────────────────▼──────────────────────┐
+     ┌─────────────────────▼───────────────────────┐
      │               Apache Airflow                │
      │                                             │
      │  drift_detection  (hourly)                  │
