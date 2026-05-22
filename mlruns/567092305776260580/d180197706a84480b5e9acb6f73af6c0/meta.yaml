@@ -1,0 +1,14 @@
+artifact_uri: /mlruns/567092305776260580/d180197706a84480b5e9acb6f73af6c0/artifacts
+end_time: 1750033200301
+entry_point_name: ''
+experiment_id: '567092305776260580'
+lifecycle_stage: active
+run_id: d180197706a84480b5e9acb6f73af6c0
+run_name: gregarious-loon-195
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750033194799
+status: 3
+tags: []
+user_id: root
